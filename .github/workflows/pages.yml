@@ -26,9 +26,15 @@ jobs:
           node-version: 20
 
       - name: Sync approved jobs
+        id: sync
+        continue-on-error: true
         env:
           JOBS_FEED_URL: https://script.google.com/macros/s/AKfycby1kXoxY6QBFhOPBEzn3vXmqfcrTBTNqBRNjlTWWN17fqqJPmqtQn6t6VfGTEAYM4hcYw/exec?format=json
         run: node scripts/sync-jobs.mjs
+
+      - name: Preserve verified snapshot if the feed is unavailable
+        if: steps.sync.outcome == 'failure'
+        run: echo "::warning::The approved-job feed was unavailable. Building with the last verified snapshot."
 
       - name: Test and build
         run: |
