@@ -19,22 +19,21 @@ concurrency:
 jobs:
   sync-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Sync approved jobs
+      - name: Collect and verify public jobs
         id: sync
         continue-on-error: true
-        env:
-          JOBS_FEED_URL: https://script.google.com/macros/s/AKfycby1kXoxY6QBFhOPBEzn3vXmqfcrTBTNqBRNjlTWWN17fqqJPmqtQn6t6VfGTEAYM4hcYw/exec?format=json
-        run: node scripts/sync-jobs.mjs
+        run: node scripts/collect-jobs.mjs
 
-      - name: Preserve verified snapshot if the feed is unavailable
+      - name: Preserve verified snapshot if collection is unavailable
         if: steps.sync.outcome == 'failure'
-        run: echo "::warning::The approved-job feed was unavailable. Building with the last verified snapshot."
+        run: echo "::warning::Public job collection failed validation. Building with the last verified snapshot."
 
       - name: Test and build
         run: |
@@ -50,7 +49,7 @@ jobs:
           git config user.name "prospect-research-jobs-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/jobs.json
-          git commit -m "chore: refresh approved jobs"
+          git commit -m "chore: refresh verified jobs"
           git push
 
       - uses: actions/configure-pages@v5

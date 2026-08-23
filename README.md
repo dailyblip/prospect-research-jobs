@@ -1,6 +1,6 @@
 # Prospect Research Jobs
 
-Public GitHub Pages front end for [ProspectResearchJobs.com](https://prospectresearchjobs.com/), backed by the existing Google Sheets and Apps Script review pipeline.
+Public GitHub Pages front end for [ProspectResearchJobs.com](https://prospectresearchjobs.com/), with a GitHub-native job collector and deployment workflow.
 
 ## Publication rules
 
@@ -14,9 +14,11 @@ Public GitHub Pages front end for [ProspectResearchJobs.com](https://prospectres
 
 ## Automatic updates
 
-The GitHub Actions workflow runs every four hours and on demand. The approved-job feed URL is already configured in the workflow.
+The GitHub Actions workflow runs every four hours and on demand. It searches selected public APRA chapter boards, advancement career centers, and higher-education/philanthropy job boards; follows job-detail pages; and publishes only complete, current listings.
 
-The Apps Script deployment must be updated with `apps-script/Code.gs`, deployed as the script owner, and made accessible to **Anyone**. Editing the existing deployment preserves its URL.
+No Google Apps Script, connector, secret, or manual refresh is required. Confirmed closed pages and postings over 30 days old are removed. Temporary source failures preserve the last verified snapshot, and unchanged runs do not create commits.
+
+The legacy Apps Script importer remains available as `npm run sync:feed`, but it is not used by the scheduled workflow.
 
 ## GitHub Pages
 
