@@ -112,7 +112,7 @@ function isRelevantListing(title, context = '') {
 
 function inferWorkMode(text) {
   const value = clean(text).toLowerCase();
-  if (/\b(?:fully\s+remote|remote\s+(?:position|role|eligible)|work\s+from\s+home|telecommut)\b/.test(value) || value === 'remote') return 'Remote';
+  if (!/\b(?:not|isn't|is not)\s+remote\b/.test(value) && /\b(?:remote|work\s+from\s+home|telecommut)\b/.test(value)) return 'Remote';
   if (/\bhybrid\b/.test(value)) return 'Hybrid';
   if (/\b(?:on[- ]site|in[- ]person)\b/.test(value)) return 'Onsite';
   return 'Unknown';
@@ -171,7 +171,7 @@ function locationFromLines(lines, title, employer) {
     .flatMap(line => line.split(/\s*\|\s*/))
     .map(clean)
     .filter(line => line && ![title, employer].some(value => clean(value).toLowerCase() === line.toLowerCase()));
-  return candidates.find(line => /\b(?:remote|hybrid|on[- ]site|[A-Z][a-z]+,?\s+[A-Z]{2}\b)/.test(line)
+  return candidates.find(line => /\b(?:remote|hybrid|on[- ]site|[A-Z][a-z]+,?\s+[A-Z]{2}\b)/i.test(line)
     && !/\b(?:salary|closing date|added|posted|until filled)\b/i.test(line)) || '';
 }
 
@@ -180,7 +180,8 @@ function listingFromSegment(titleText, segment, source, now, preferredUrl = '') 
   const lines = htmlLines(segment);
   const metadata = lines.flatMap(line => line.split(/\s*\|\s*/).map(clean)).filter(Boolean);
   const titleIndex = Math.max(0, metadata.findIndex(line => line.toLowerCase() === clean(titleText).toLowerCase()));
-  const employer = split.employer || metadata.slice(titleIndex + 1, titleIndex + 10).find(line => looksLikeEmployer(line, split.title)) || '';
+  const employer = clean(split.employer || metadata.slice(titleIndex + 1, titleIndex + 10).find(line => looksLikeEmployer(line, split.title)) || '')
+    .replace(/,?\s+(?:remote|hybrid|on[- ]site)\s*$/i, '');
   const text = lines.join('\n');
   const salary = text.match(/\bSalary(?: Range)?\s*:\s*([^\n]+)/i)?.[1] || '';
   const closingDate = parseDate(text.match(/\bClosing Date\s*:\s*([^\n]+)/i)?.[1], now);
@@ -200,7 +201,7 @@ function listingFromSegment(titleText, segment, source, now, preferredUrl = '') 
     employer,
     location,
     workMode: inferWorkMode(`${split.title} ${location} ${text}`),
-    salaryRange: clean(salary) || 'Not listed',
+    salaryRange: /^(?:none|not) listed$/i.test(clean(salary)) ? 'Not listed' : clean(salary) || 'Not listed',
     closingDate,
     postedDate: dateFromContext(text, now),
     dateAdded: now.toISOString(),
@@ -284,7 +285,9 @@ function addressText(jobPosting) {
   for (const location of locations) {
     const address = location?.address || location;
     if (!address || typeof address !== 'object') continue;
-    const parts = [address.addressLocality, address.addressRegion, address.addressCountry].map(clean).filter(Boolean);
+    const parts = [address.addressLocality, address.addressRegion, address.addressCountry]
+      .map(clean)
+      .filter(part => part && !/^(?:unavailable|unknown|n\/?a|none|null)$/i.test(part));
     if (parts.length) return parts.join(', ');
   }
   return '';
@@ -302,8 +305,8 @@ function salaryText(jobPosting) {
   const unit = clean(value.unitText).toLowerCase();
   const formatter = new Intl.NumberFormat('en-US', { style: currency ? 'currency' : 'decimal', currency: currency || undefined, maximumFractionDigits: 0 });
   let range = '';
-  if (Number.isFinite(minimum) && Number.isFinite(maximum)) range = `${formatter.format(minimum)} - ${formatter.format(maximum)}`;
-  else if (Number.isFinite(amount)) range = formatter.format(amount);
+  if (Number.isFinite(minimum) && Number.isFinite(maximum) && (minimum > 0 || maximum > 0)) range = `${formatter.format(minimum)} - ${formatter.format(maximum)}`;
+  else if (Number.isFinite(amount) && amount > 0) range = formatter.format(amount);
   return range && unit ? `${range} ${unit.toLowerCase()}` : range;
 }
 

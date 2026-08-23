@@ -37,14 +37,19 @@ function placeholder(value) {
   return /^(?:unknown|not listed|review needed|test|example|n\/a|na|none|untitled)(?:\b|$)/i.test(clean(value));
 }
 
+function optional(value, fallback) {
+  const text = clean(value);
+  return !text || /^(?:none|not) listed$/i.test(text) ? fallback : text;
+}
+
 export function normalizeJob(raw) {
   const job = {
     status: clean(first(raw, 'status', 'Status')),
     title: clean(first(raw, 'title', 'Job Title')),
     employer: clean(first(raw, 'employer', 'Employer')),
-    location: clean(first(raw, 'location', 'Location')) || 'Not listed',
+    location: optional(first(raw, 'location', 'Location'), 'Not listed'),
     workMode: clean(first(raw, 'workMode', 'Work Mode')) || 'Unknown',
-    salaryRange: clean(first(raw, 'salaryRange', 'Salary Range')) || 'Not listed',
+    salaryRange: optional(first(raw, 'salaryRange', 'Salary Range'), 'Not listed'),
     postedDate: clean(first(raw, 'postedDate', 'Posted Date')),
     dateAdded: clean(first(raw, 'dateAdded', 'Date Added')),
     source: clean(first(raw, 'source', 'Source')),
@@ -77,14 +82,53 @@ export function rejectionReason(job, now = new Date()) {
   return '';
 }
 
+function roleText(value) {
+  return clean(value)
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\s+-\s+\d+\b/g, ' ')
+    .replace(/\b(?:of|the)\b/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function locationText(value) {
+  return clean(value)
+    .toLowerCase()
+    .replace(/\b(?:remote|hybrid|on[- ]site|onsite|united states|usa)\b/g, ' ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function sameListing(left, right) {
+  const leftUrl = left.applyUrl.toLowerCase().replace(/\/$/, '');
+  const rightUrl = right.applyUrl.toLowerCase().replace(/\/$/, '');
+  if (leftUrl === rightUrl) return true;
+  if (roleText(left.title) !== roleText(right.title) || roleText(left.employer) !== roleText(right.employer)) return false;
+
+  const leftLocation = locationText(left.location);
+  const rightLocation = locationText(right.location);
+  if (leftLocation && rightLocation && leftLocation !== rightLocation && !leftLocation.includes(rightLocation) && !rightLocation.includes(leftLocation)) return false;
+
+  const leftDate = parseDate(left.postedDate)?.getTime();
+  const rightDate = parseDate(right.postedDate)?.getTime();
+  return !leftDate || !rightDate || Math.abs(leftDate - rightDate) <= 14 * DAY_MS;
+}
+
+function listingScore(job) {
+  const posted = parseDate(job.postedDate)?.getTime() || 0;
+  const complete = [job.location !== 'Not listed', job.workMode !== 'Unknown', job.salaryRange !== 'Not listed', job.summary].filter(Boolean).length;
+  return posted + complete;
+}
+
 function dedupe(jobs) {
-  const seen = new Set();
-  return jobs.filter(job => {
-    const key = job.applyUrl.toLowerCase().replace(/\/$/, '');
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  const unique = [];
+  for (const job of jobs) {
+    const index = unique.findIndex(existing => sameListing(existing, job));
+    if (index < 0) unique.push(job);
+    else if (listingScore(job) > listingScore(unique[index])) unique[index] = job;
+  }
+  return unique;
 }
 
 export function buildSnapshot(payload, now = new Date()) {
