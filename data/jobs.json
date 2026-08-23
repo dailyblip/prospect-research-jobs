@@ -1,14 +1,44 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T23:45:00.000Z",
-  "count": 20,
+  "generatedAt": "2026-08-23T23:54:03.961Z",
+  "count": 22,
   "rejectedCount": 0,
   "jobs": [
     {
       "status": "Active",
+      "title": "Director of Prospect Development (Wilmington, NC)",
+      "employer": "University of North Carolina Wilmington",
+      "location": "Wilmington, NC",
+      "workMode": "Unknown",
+      "salaryRange": "None listed",
+      "postedDate": "2026-08-20",
+      "dateAdded": "2026-08-23T23:54:03.961Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://jobs.uncw.edu/postings/40535",
+      "summary": "",
+      "tags": "Prospect Development, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Prospect Development",
+      "employer": "University of North Carolina Wilmington",
+      "location": "Wilmington, NC",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-19",
+      "dateAdded": "2026-08-23T23:54:03.961Z",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179532103&Title=Director%20of%20Prospect%20Development",
+      "summary": "",
+      "tags": "Prospect Development, Leadership"
+    },
+    {
+      "status": "Active",
       "title": "Director of Prospect Strategy & Research",
-      "employer": "Harvard Business School",
-      "location": "Boston, MA",
+      "employer": "Harvard University",
+      "location": "Boston, MA, United States",
       "workMode": "Hybrid",
       "salaryRange": "Not listed",
       "postedDate": "2026-08-20",
@@ -16,23 +46,23 @@
       "source": "Harvard Careers",
       "sourceUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
       "applyUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
-      "summary": "Leads prospect strategy, research, analytics, relationship intelligence, and pipeline development for Harvard Business School.",
-      "tags": "Prospect Research, Prospect Strategy, Leadership, Higher Education"
+      "summary": "Company Description By working at Harvard University, you join a vibrant community that advances Harvard's world-changing mission in meaningful ways, inspires innovation and collaboration, and builds skills and expertise. We are dedicated to creating a diverse…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
     },
     {
       "status": "Active",
-      "title": "Remote Database Analyst - Philanthropy",
+      "title": "Remote Database Analyst - Philanthropy (Remote)",
       "employer": "Texas Children's",
       "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
+      "workMode": "Unknown",
+      "salaryRange": "None listed",
       "postedDate": "2026-08-19",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://eohh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/426216/?keyword=Analyst&mode=location",
-      "summary": "Remote database analyst role supporting philanthropy operations.",
-      "tags": "Advancement Analytics, Database, Philanthropy, Remote"
+      "summary": "",
+      "tags": "Remote"
     },
     {
       "status": "Active",
@@ -47,37 +77,22 @@
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://americares.csod.com/ux/ats/careersite/5/home/requisition/1594?c=americares",
       "summary": "Senior associate role supporting prospect development for Americares.",
-      "tags": "Prospect Development, Prospect Research, Remote"
+      "tags": "Prospect Development"
     },
     {
       "status": "Active",
-      "title": "Coordinator of Advancement Research",
+      "title": "Coordinator of Advancement Research (High Point, NC)",
       "employer": "High Point University",
       "location": "High Point, NC",
-      "workMode": "Onsite",
-      "salaryRange": "Not listed",
+      "workMode": "Unknown",
+      "salaryRange": "None listed",
       "postedDate": "2026-08-19",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://highpoint.wd503.myworkdayjobs.com/en-US/HighPoint/job/Coordinator-of-Advancement-Research_R0008972",
-      "summary": "Coordinates advancement research in support of university fundraising.",
-      "tags": "Advancement Research, Prospect Research, Higher Education"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research & Grant Specialist",
-      "employer": "Novant Health",
-      "location": "Salisbury, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-19",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://jobs.novanthealth.org/careers-home/jobs/237934?lang=en-us",
-      "summary": "Hybrid role combining prospect research and grant support.",
-      "tags": "Prospect Research, Grants, Healthcare, Hybrid"
+      "summary": "",
+      "tags": "Prospect Research"
     },
     {
       "status": "Active",
@@ -113,31 +128,46 @@
       "status": "Active",
       "title": "Prospect Management Analyst",
       "employer": "University of Oregon",
-      "location": "Eugene or Portland, OR",
+      "location": "Eugene, Oregon, United States",
       "workMode": "Hybrid",
-      "salaryRange": "$22.84 - $34.70 hourly",
+      "salaryRange": "$23 - $35 hour",
       "postedDate": "2026-08-12",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "WACUBO Career Center",
       "sourceUrl": "https://jobs.wacubo.org/job/279/prospect-management-analyst/",
       "applyUrl": "https://jobs.wacubo.org/job/279/prospect-management-analyst/",
-      "summary": "Audits prospect records, maintains pipeline data integrity, and produces prospect-management analytics and reports.",
-      "tags": "Prospect Management, Advancement Analytics, Higher Education, Hybrid"
+      "summary": "Hybrid eligible - located in Eugene or Portland, Oregon Review of Applications Begins August 31, 2026; position open until filled Special Instructions to Applicants To be considered for this position, applicants must submit a complete application that includes…",
+      "tags": "Prospect Development, Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
-      "title": "Development Coordinator, Prospect Management and Research",
-      "employer": "Partners In Health",
-      "location": "Boston, MA or Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
+      "title": "Associate Director, Prospect Intelligence (Hybrid/Raleigh, NC)",
+      "employer": "NC State University",
+      "location": "Hybrid/Raleigh, NC",
+      "workMode": "Hybrid",
+      "salaryRange": "None listed",
       "postedDate": "2026-08-12",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://www.pih.org/employment?p=job%2FoOIDAfwt",
-      "summary": "Coordinates prospect-management and research work for the development team.",
-      "tags": "Prospect Management, Prospect Research, Development, Remote"
+      "applyUrl": "https://jobs.ncsu.edu/postings/233349",
+      "summary": "",
+      "tags": "Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Research & Grant Specialist",
+      "employer": "Novant Health",
+      "location": "UNAVAILABLE, North Carolina, UNAVAILABLE",
+      "workMode": "Hybrid",
+      "salaryRange": "$0 - $0 year",
+      "postedDate": "2026-08-10",
+      "dateAdded": "2026-08-23T23:45:00.000Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://jobs.novanthealth.org/careers-home/jobs/237934?lang=en-us",
+      "summary": "What We Offer In this role, you’ll serve as a key member of the Novant Health Foundation grants team, balancing detailed post-award grant management with strategic prospect research. This position is ideal for someone who enjoys working with both numbers and n…",
+      "tags": "Prospect Research, Remote"
     },
     {
       "status": "Active",
@@ -172,8 +202,8 @@
     {
       "status": "Active",
       "title": "Prospect Development Analyst",
-      "employer": "James Madison University",
-      "location": "Harrisonburg, VA",
+      "employer": "JMU Careers",
+      "location": "Harrisonburg, Virginia, US",
       "workMode": "Onsite",
       "salaryRange": "Maximum starting salary: $55,675",
       "postedDate": "2026-08-06",
@@ -181,38 +211,68 @@
       "source": "JMU Careers",
       "sourceUrl": "https://jobs.jmu.edu/jobs/prospect-development-analyst-harrisonburg-virginia-united-states",
       "applyUrl": "https://jobs.jmu.edu/jobs/prospect-development-analyst-harrisonburg-virginia-united-states",
-      "summary": "Identifies and evaluates prospective donors and delivers research, analysis, and actionable insights for fundraising strategy.",
-      "tags": "Prospect Development, Prospect Research, Higher Education"
+      "summary": "Working Title: Prospect Development Analyst State Role Title: Public Relations and Marketing Specialist III Position Type: Full-time Staff (Classified) Position Status: Full-Time FLSA Status: Exempt: Not Eligible for Overtime College/Division: Advancement Info…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics"
     },
     {
       "status": "Active",
-      "title": "Prospect Research Analyst (993)",
+      "title": "Prospect Research Analyst (Hybrid/Davidson, NC)",
       "employer": "Davidson College",
-      "location": "Davidson, NC",
+      "location": "Hybrid/Davidson, NC",
       "workMode": "Hybrid",
-      "salaryRange": "Not listed",
+      "salaryRange": "None listed",
       "postedDate": "2026-08-05",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/993/",
-      "summary": "Hybrid prospect research role supporting advancement at Davidson College.",
-      "tags": "Prospect Research, Higher Education, Hybrid"
+      "applyUrl": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/993/?utm_medium=jobshare&utm_source=External+Job+Share",
+      "summary": "",
+      "tags": "Prospect Research"
+    },
+    {
+      "status": "Active",
+      "title": "Sr. Prospect Management Analyst (Hybrid)",
+      "employer": "Duke Health Development & Alumni Affairs",
+      "location": "Hybrid",
+      "workMode": "Hybrid",
+      "salaryRange": "$62,766-$97,798",
+      "postedDate": "2026-08-03",
+      "dateAdded": "2026-08-23T23:45:00.000Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://careers.duke.edu/job/Durham-Senior-Prospect-Management-Analyst-NC-27710/1414189000/",
+      "summary": "",
+      "tags": "Prospect Management"
+    },
+    {
+      "status": "Active",
+      "title": "Development Coordinator, Prospect Management and Research",
+      "employer": "Partners in Health",
+      "location": "St. Paul (hybrid)",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-01",
+      "dateAdded": "2026-08-23T23:45:00.000Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.pih.org/employment?p=job%2FoYCwAfwq&nl=1",
+      "summary": "",
+      "tags": "Prospect Management, Advancement Analytics, Leadership, Remote"
     },
     {
       "status": "Active",
       "title": "Sr. Manager, Prospect Development",
       "employer": "American Cancer Society",
-      "location": "Remote — United States",
-      "workMode": "Remote",
-      "salaryRange": "$70,000 - $80,000",
-      "postedDate": "2026-08-03",
+      "location": "Not listed",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-01",
       "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "American Cancer Society Careers",
-      "sourceUrl": "https://jobs.cancer.org/job/atlanta/sr-manager-prospect-development-remote/79/98572769072",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
       "applyUrl": "https://jobs.cancer.org/job/atlanta/sr-manager-prospect-development-remote/79/98572769072",
-      "summary": "Oversees individual prospect research and prospect management for philanthropy teams across the United States.",
-      "tags": "Prospect Development, Prospect Research, Prospect Management, Remote"
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -231,36 +291,6 @@
     },
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Intelligence",
-      "employer": "NC State University",
-      "location": "Raleigh, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-07-30",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "NC State Careers",
-      "sourceUrl": "https://jobs.ncsu.edu/postings/233349",
-      "applyUrl": "https://jobs.ncsu.edu/postings/233349",
-      "summary": "Leads research and analytics for prospect identification, principal-gift strategy, predictive modeling, and pipeline development.",
-      "tags": "Prospect Intelligence, Prospect Research, Advancement Analytics, Higher Education"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Prospect Management Analyst",
-      "employer": "Duke Health Development & Alumni Affairs",
-      "location": "Durham, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "$62,766 - $97,798",
-      "postedDate": "2026-07-30",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Duke Careers",
-      "sourceUrl": "https://careers.duke.edu/job/Durham-Senior-Prospect-Management-Analyst-NC-27710/1414189000/",
-      "applyUrl": "https://careers.duke.edu/job/Durham-Senior-Prospect-Management-Analyst-NC-27710/1414189000/",
-      "summary": "Supports prospect assignments, portfolio optimization, pipeline analytics, CRM data integrity, and fundraiser strategy.",
-      "tags": "Prospect Management, Advancement Analytics, Healthcare, Hybrid"
-    },
-    {
-      "status": "Active",
       "title": "Director of Advancement Analytics and Insights",
       "employer": "San José State University",
       "location": "San José, CA",
@@ -276,9 +306,9 @@
     },
     {
       "status": "Active",
-      "title": "Director Prospect Management",
+      "title": "Director Prospect Management - 530108",
       "employer": "The University of Alabama",
-      "location": "Tuscaloosa, AL",
+      "location": "Tuscaloosa, Alabama, US",
       "workMode": "Onsite",
       "salaryRange": "$83,500 - $112,700",
       "postedDate": "2026-07-29",
@@ -286,8 +316,8 @@
       "source": "University of Alabama Careers",
       "sourceUrl": "https://careers.ua.edu/jobs/director-prospect-management-530108-tuscaloosa-alabama-united-states",
       "applyUrl": "https://careers.ua.edu/jobs/director-prospect-management-530108-tuscaloosa-alabama-united-states",
-      "summary": "Leads donor prospect research, portfolio management, pipeline strategy, screening initiatives, and predictive analytics.",
-      "tags": "Prospect Management, Prospect Research, Advancement Analytics, Leadership"
+      "summary": "Pay Grade/Pay Range: Minimum: $83,500 - Midpoint: $112,700 (Salaried E13) Department/Organization: 301102 - Advancement Services Normal Work Schedule: Monday - Friday 8:00am to 5:00pm Job Summary: The Director of Prospect Management defines, implements, and ma…",
+      "tags": "Prospect Research, Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -303,6 +333,67 @@
       "applyUrl": "https://heritage.applytojob.com/apply/gKd5eyMamw/Prospect-Research-Associate-Donor-Relations",
       "summary": "Coordinates prospect research, donor qualification, pipeline maintenance, constituent data, profiles, and reporting.",
       "tags": "Prospect Research, Donor Relations, Pipeline Management"
+    }
+  ],
+  "sources": [
+    {
+      "source": "Apra Carolinas",
+      "ok": true,
+      "found": 16
+    },
+    {
+      "source": "Apra Northwest",
+      "ok": true,
+      "found": 3
+    },
+    {
+      "source": "Apra Minnesota",
+      "ok": true,
+      "found": 6
+    },
+    {
+      "source": "Apra Georgia",
+      "ok": true,
+      "found": 3
+    },
+    {
+      "source": "Apra Canada",
+      "ok": true,
+      "found": 2
+    },
+    {
+      "source": "CARA",
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Apra Career Center",
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "CASE Career Central",
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "HigherEdJobs — Prospect Research",
+      "ok": true,
+      "found": 1
+    },
+    {
+      "source": "HigherEdJobs — Prospect Development",
+      "ok": true,
+      "found": 0
+    },
+    {
+      "source": "Philanthropy Jobs — Prospect Research",
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     }
   ]
 }
