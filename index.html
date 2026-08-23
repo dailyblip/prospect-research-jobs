@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prospect Research Jobs</title>
+    <meta name="description" content="Current jobs in prospect research, prospect development, prospect management, and advancement analytics.">
+    <meta name="theme-color" content="#101720">
+    <link rel="canonical" href="https://prospectresearchjobs.com/">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#job-results">Skip to job listings</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label="Prospect Research Jobs home">
+          <svg class="brand-mark" viewBox="0 0 72 72" aria-hidden="true">
+            <circle cx="30" cy="30" r="23"></circle>
+            <path d="M47 47 65 65"></path>
+            <path class="chart-bar" d="M19 37V29M29 37V22M39 37V15"></path>
+          </svg>
+          <span class="brand-copy"><strong>prospect</strong><span>research <em>jobs</em></span></span>
+        </a>
+
+        <div class="header-actions">
+          <a class="button button-ghost" href="mailto:info@prospectresearchjobs.com?subject=Post%20a%20Prospect%20Research%20Job">Post a Job</a>
+          <a class="button button-light" href="#job-alerts">Get Weekly Alerts</a>
+        </div>
+      </div>
+      <div class="shell header-tagline">
+        The focused directory for prospect research, prospect development, prospect management, and advancement analytics careers.
+      </div>
+    </header>
+
+    <main>
+      <section class="search-panel" aria-labelledby="search-heading">
+        <div class="shell">
+          <h1 id="search-heading" class="visually-hidden">Search prospect research jobs</h1>
+          <div class="search-row">
+            <label class="search-field">
+              <span class="visually-hidden">Search jobs</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+              <input id="search-input" type="search" placeholder="Search job title, employer, location, or keyword…" autocomplete="off">
+            </label>
+          </div>
+
+          <div class="filter-row" aria-label="Job filters">
+            <label>
+              <span class="visually-hidden">Work mode</span>
+              <select id="work-mode-filter">
+                <option value="">All Work Modes</option>
+                <option value="Remote">Remote</option>
+                <option value="Hybrid">Hybrid</option>
+                <option value="Onsite">Onsite</option>
+                <option value="Unknown">Not Listed</option>
+              </select>
+            </label>
+            <label>
+              <span class="visually-hidden">Job type</span>
+              <select id="job-type-filter">
+                <option value="">All Job Types</option>
+                <option value="Prospect Research">Prospect Research</option>
+                <option value="Prospect Development">Prospect Development</option>
+                <option value="Prospect Management">Prospect Management</option>
+                <option value="Advancement Analytics">Advancement Analytics</option>
+                <option value="Other">Other</option>
+              </select>
+            </label>
+            <label>
+              <span class="visually-hidden">Experience level</span>
+              <select id="experience-filter">
+                <option value="">All Experience Levels</option>
+                <option value="Executive">Executive</option>
+                <option value="Director">Director</option>
+                <option value="Manager">Manager</option>
+                <option value="Senior">Senior</option>
+                <option value="Individual Contributor">Individual Contributor</option>
+              </select>
+            </label>
+            <label>
+              <span class="visually-hidden">Location</span>
+              <select id="location-filter">
+                <option value="">All Locations</option>
+              </select>
+            </label>
+            <button id="reset-filters" class="button button-reset" type="button">Clear Filters</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="shell content-grid">
+        <section class="results" aria-labelledby="results-title">
+          <div class="results-heading">
+            <div>
+              <h2 id="results-title"><span id="active-count">0</span> active jobs</h2>
+              <p id="updated-at" class="updated-at">Loading current listings…</p>
+            </div>
+            <label class="sort-control">Sort
+              <select id="sort-order">
+                <option value="newest">Newest added</option>
+                <option value="posted">Newest posted</option>
+                <option value="title">Job title</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="job-results" class="job-list" aria-live="polite" aria-busy="true"></div>
+
+          <div id="empty-state" class="empty-state" hidden>
+            <h3>No matching jobs</h3>
+            <p>Try clearing a filter or using a broader search term.</p>
+            <button class="button button-primary" type="button" data-reset-filters>Clear Filters</button>
+          </div>
+        </section>
+
+        <aside class="sidebar" aria-label="Job board information">
+          <section id="job-alerts" class="side-card">
+            <p class="eyebrow">Weekly digest</p>
+            <h2>Get new jobs by email</h2>
+            <p>Receive a concise weekly list of newly approved prospect research jobs.</p>
+            <form class="newsletter-form" method="post" target="_blank" action="https://script.google.com/macros/s/AKfycby1kXoxY6QBFhOPBEzn3vXmqfcrTBTNqBRNjlTWWN17fqqJPmqtQn6t6VfGTEAYM4hcYw/exec">
+              <input type="hidden" name="action" value="subscribe">
+              <label for="newsletter-email">Email address</label>
+              <input id="newsletter-email" name="email" type="email" placeholder="you@example.com" required autocomplete="email">
+              <button class="button button-primary" type="submit">Subscribe</button>
+            </form>
+            <p class="fine-print">Only the weekly jobs digest. Unsubscribe at any time.</p>
+          </section>
+
+          <section class="side-card">
+            <p class="eyebrow">Employers</p>
+            <h2>Post a relevant job</h2>
+            <p>Reach professionals working in prospect research, prospect development, and advancement analytics.</p>
+            <a class="button button-outline" href="mailto:info@prospectresearchjobs.com?subject=Post%20a%20Prospect%20Research%20Job">Email a Job</a>
+          </section>
+
+          <section class="side-card about-card">
+            <p class="eyebrow">About</p>
+            <p>Listings come from public job sources and are reviewed before publication. We do not invent missing details; unavailable information is labeled accordingly.</p>
+            <a href="mailto:info@prospectresearchjobs.com">info@prospectresearchjobs.com</a>
+          </section>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>© <span id="copyright-year"></span> Prospect Research Jobs.</p>
+        <nav aria-label="Footer navigation">
+          <a href="about.html">About</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="mailto:info@prospectresearchjobs.com">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

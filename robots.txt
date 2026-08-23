@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prospectresearchjobs.com/sitemap.xml
