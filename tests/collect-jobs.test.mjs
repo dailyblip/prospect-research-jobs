@@ -78,6 +78,26 @@ test('collects and enriches only complete, current jobs', async () => {
   assert.match(result.jobs[0].summary, /actionable research/);
 });
 
+test('keeps a more specific chapter location and canonical employer name', async () => {
+  const listing = `
+    <h2><a href="https://jmu.example/job/789">Prospect Development Analyst</a></h2>
+    <h3>JMU Careers</h3>
+    <p>Hybrid/Harrisonburg, VA (added 8/21/2026)</p>`;
+  const detail = `<script type="application/ld+json">${JSON.stringify({
+    '@type': 'JobPosting',
+    title: 'Prospect Development Analyst',
+    datePosted: '2026-08-21',
+    hiringOrganization: { name: 'JMU Careers' },
+    jobLocation: { address: { addressRegion: 'Virginia' } },
+    description: 'Supports prospect development and prospect research.'
+  })}</script>`;
+  const fetchFn = async url => url === source.url ? response(listing, 200, url) : response(detail, 200, url);
+  const result = await collectFromSources([source], now, fetchFn);
+  assert.equal(result.jobs[0].employer, 'James Madison University');
+  assert.equal(result.jobs[0].location, 'Hybrid/Harrisonburg, VA');
+  assert.equal(result.jobs[0].workMode, 'Hybrid');
+});
+
 test('fails safely when reachable sources contain no recognizable listings', async () => {
   await assert.rejects(
     collectFromSources([source], now, async url => response('<h1>Jobs</h1>', 200, url)),

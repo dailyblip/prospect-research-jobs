@@ -112,8 +112,8 @@ function isRelevantListing(title, context = '') {
 
 function inferWorkMode(text) {
   const value = clean(text).toLowerCase();
-  if (!/\b(?:not|isn't|is not)\s+remote\b/.test(value) && /\b(?:remote|work\s+from\s+home|telecommut)\b/.test(value)) return 'Remote';
   if (/\bhybrid\b/.test(value)) return 'Hybrid';
+  if (!/\b(?:not|isn't|is not)\s+remote\b/.test(value) && /\b(?:remote|work\s+from\s+home|telecommut(?:e|ing)?)\b/.test(value)) return 'Remote';
   if (/\b(?:on[- ]site|in[- ]person)\b/.test(value)) return 'Onsite';
   return 'Unknown';
 }
@@ -128,6 +128,12 @@ function tagsFor(title, description = '') {
   if (/director|manager|head|chief|vice president/.test(text)) tags.push('Leadership');
   if (/remote/.test(text)) tags.push('Remote');
   return [...new Set(tags)].join(', ');
+}
+
+function canonicalEmployer(value) {
+  const employer = clean(value);
+  if (employer.toLowerCase() === 'jmu careers') return 'James Madison University';
+  return employer;
 }
 
 function looksLikeEmployer(line, title) {
@@ -353,13 +359,16 @@ async function enrichCandidate(candidate, now, fetchFn) {
   if (expiredByValidThrough(posting, now)) return null;
 
   const description = stripHtml(posting.description || posting.responsibilities || '');
-  const location = addressText(posting) || candidate.location;
+  const postedLocation = addressText(posting);
+  const candidateHasSpecificLocation = candidate.location !== 'Not listed' && !/^(?:remote|hybrid|on[- ]site)$/i.test(candidate.location);
+  const location = postedLocation && (!candidateHasSpecificLocation || postedLocation.includes(',')) ? postedLocation : candidate.location;
   const modeText = `${posting.jobLocationType || ''} ${posting.description || ''} ${candidate.workMode}`;
-  const workMode = /TELECOMMUTE/i.test(posting.jobLocationType || '') ? 'Remote' : inferWorkMode(modeText);
+  const workMode = inferWorkMode(modeText);
+  const postedEmployer = canonicalEmployer(posting.hiringOrganization?.name);
   return {
     ...candidate,
     title: clean(posting.title) || candidate.title,
-    employer: clean(posting.hiringOrganization?.name) || candidate.employer,
+    employer: postedEmployer && !/\bcareers?$/i.test(postedEmployer) ? postedEmployer : canonicalEmployer(candidate.employer),
     location: workMode === 'Remote' && location === 'Not listed' ? 'Remote' : location,
     workMode: workMode === 'Unknown' ? candidate.workMode : workMode,
     salaryRange: salaryText(posting) || candidate.salaryRange,
