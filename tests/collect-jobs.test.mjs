@@ -40,7 +40,7 @@ test('extracts a heading listing whose application link follows the description'
     <a href="https://uidaho.example/job/456">Full Description Here.</a>`;
   const [job] = extractListingsFromHtml(html, source, now);
   assert.equal(job.title, 'Prospect Research Strategist II');
-  assert.equal(job.employer, 'University of Idaho, Hybrid');
+  assert.equal(job.employer, 'University of Idaho');
   assert.equal(job.workMode, 'Hybrid');
   assert.equal(job.postedDate, '');
   assert.equal(job.applyUrl, 'https://uidaho.example/job/456');

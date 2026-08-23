@@ -46,3 +46,28 @@ test('publishes only complete, recent, unique active jobs', () => {
   assert.equal(snapshot.rejectedCount, 2);
   assert.equal(snapshot.jobs[0].title, valid.title);
 });
+
+test('collapses the same employer role syndicated under different URLs', () => {
+  const base = {
+    status: 'Active',
+    title: 'Director of Prospect Development',
+    employer: 'University of North Carolina Wilmington',
+    location: 'Wilmington, NC',
+    workMode: 'Unknown',
+    salaryRange: 'None listed',
+    postedDate: '2026-08-18',
+    dateAdded: '2026-08-18',
+    source: 'Employer careers',
+    applyUrl: 'https://jobs.example.edu/postings/1'
+  };
+  const newer = {
+    ...base,
+    title: 'Director of Prospect Development (Wilmington, NC)',
+    postedDate: '2026-08-20',
+    applyUrl: 'https://board.currentjobs.org/jobs/2'
+  };
+  const snapshot = buildSnapshot({ jobs: [base, newer] }, now);
+  assert.equal(snapshot.count, 1);
+  assert.equal(snapshot.jobs[0].postedDate, '2026-08-20');
+  assert.equal(snapshot.jobs[0].salaryRange, 'Not listed');
+});
