@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync-jobs.mjs",
+    "sync": "node scripts/collect-jobs.mjs",
+    "sync:feed": "node scripts/sync-jobs.mjs",
     "build": "node scripts/build-site.mjs",
     "test": "node --test",
     "validate": "node scripts/validate-site.mjs"
