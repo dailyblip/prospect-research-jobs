@@ -1,7 +1,20 @@
 const PUBLIC_SITE_URL = 'https://prospectresearchjobs.com/';
+const LIVE_JOBS_FEED_URL = PUBLIC_SITE_URL + 'data/jobs.json';
+const WEEKLY_DIGEST_HANDLER = 'sendWeeklyDigest';
+const WEEKLY_DIGEST_RETRY_TRIGGER_PROP = 'WEEKLY_DIGEST_RETRY_TRIGGER_ID';
+const SUBSCRIBER_HEADERS = [
+  'Email',
+  'Date Joined',
+  'Status',
+  'Source',
+  'Unsubscribe Token',
+  'Last Sent',
+  'Last Digest'
+];
 
 function doGet(e) {
   const format = String(e && e.parameter && e.parameter.format || '').trim().toLowerCase();
+  const action = String(e && e.parameter && e.parameter.action || '').trim().toLowerCase();
 
   if (format === 'json') {
     return ContentService
@@ -9,9 +22,23 @@ function doGet(e) {
       .setMimeType(ContentService.MimeType.JSON);
   }
 
-  return HtmlService.createHtmlOutputFromFile('Index')
-    .setTitle('Prospect Research Jobs')
-    .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
+  if (action === 'unsubscribe') {
+    const email = String(e && e.parameter && e.parameter.email || '').trim();
+    const token = String(e && e.parameter && e.parameter.token || '').trim();
+    const result = unsubscribeSubscriber_(email, token);
+
+    return buildPublicFormResponse_(
+      result.success,
+      result.message,
+      result.success ? 'You are unsubscribed' : 'Unsubscribe problem'
+    );
+  }
+
+  return buildPublicFormResponse_(
+    true,
+    'Weekly alerts are managed from the Prospect Research Jobs website.',
+    'Prospect Research Jobs'
+  );
 }
 
 function doPost(e) {
@@ -23,7 +50,11 @@ function doPost(e) {
 
   const email = String(e && e.parameter && e.parameter.email || '').trim();
   const result = addSubscriber(email);
-  return buildPublicFormResponse_(result.success, result.message);
+  return buildPublicFormResponse_(
+    result.success,
+    result.message,
+    result.success ? 'Weekly alerts are active' : 'Subscription problem'
+  );
 }
 
 function buildPublicJobsFeed_() {
@@ -53,18 +84,19 @@ function buildPublicJobsFeed_() {
   };
 }
 
-function buildPublicFormResponse_(success, message) {
-  const title = success ? 'You are subscribed' : 'Subscription problem';
+function buildPublicFormResponse_(success, message, customTitle) {
+  const title = String(customTitle || (success ? 'You are subscribed' : 'Subscription problem'));
+  const safeTitle = escapePublicHtml_(title);
   const safeMessage = escapePublicHtml_(message || 'Please try again.');
 
   return HtmlService.createHtmlOutput(
     '<!doctype html><html lang="en"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1">' +
-    '<title>' + title + '</title>' +
+    '<title>' + safeTitle + '</title>' +
     '<style>body{margin:0;background:#F6F3EC;color:#252A2E;font-family:Arial,sans-serif}' +
     'main{max-width:560px;margin:12vh auto;padding:32px;background:#fff;border:1px solid #DDD6C8;border-radius:14px}' +
     'a{color:#2F5D7C;font-weight:700}</style></head><body><main>' +
-    '<h1>' + title + '</h1><p>' + safeMessage + '</p>' +
+    '<h1>' + safeTitle + '</h1><p>' + safeMessage + '</p>' +
     '<p><a href="' + PUBLIC_SITE_URL + '">Return to Prospect Research Jobs</a></p>' +
     '</main></body></html>'
   ).setTitle(title);
@@ -88,6 +120,8 @@ function onOpen() {
     .addItem('Dedupe Jobs', 'dedupeJobsAgent')
     .addItem('Archive Old Jobs', 'archiveOldJobs')
     .addItem('Send Weekly Digest', 'sendWeeklyDigest')
+    .addItem('Enable Weekly Alerts', 'setupWeeklyDigest')
+    .addItem('Disable Weekly Alerts', 'disableWeeklyDigest')
     .addItem('Auto-Review Pending Jobs', 'autoReviewPendingJobs')
     .addItem('Test OpenAI Key', 'testOpenAIKey')
     .addItem('Debug Jobs', 'debugJobs')
@@ -145,35 +179,146 @@ function getJobs() {
 }
 
 function addSubscriber(email) {
-  email = String(email || '').trim().toLowerCase();
+  email = normalizeSubscriberEmail_(email);
 
-  if (!email || !email.includes('@')) {
+  if (!isValidSubscriberEmail_(email)) {
     return { success: false, message: 'Please enter a valid email address.' };
   }
 
+  const lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(10000)) {
+    return { success: false, message: 'The subscriber list is busy. Please try again in a moment.' };
+  }
+
+  try {
+    const sheet = ensureSubscribersSheet_();
+    const headers = subscriberHeaderMap_(sheet);
+    const data = sheet.getDataRange().getValues();
+
+    for (let i = 1; i < data.length; i++) {
+      const existingEmail = normalizeSubscriberEmail_(data[i][headers.Email - 1]);
+      if (existingEmail !== email) continue;
+
+      const rowNumber = i + 1;
+      const status = String(data[i][headers.Status - 1] || '').trim().toLowerCase();
+      let token = String(data[i][headers['Unsubscribe Token'] - 1] || '').trim();
+
+      if (!token) {
+        token = Utilities.getUuid();
+        sheet.getRange(rowNumber, headers['Unsubscribe Token']).setValue(token);
+      }
+
+      if (status === 'active') {
+        return { success: true, message: 'You are already subscribed to the weekly alerts.' };
+      }
+
+      sheet.getRange(rowNumber, headers.Status).setValue('Active');
+      sheet.getRange(rowNumber, headers.Source).setValue('Website — resubscribed');
+      sheet.getRange(rowNumber, headers['Last Digest']).clearContent();
+
+      return { success: true, message: 'Welcome back — your weekly alerts are active again.' };
+    }
+
+    const row = new Array(sheet.getLastColumn()).fill('');
+    row[headers.Email - 1] = email;
+    row[headers['Date Joined'] - 1] = new Date();
+    row[headers.Status - 1] = 'Active';
+    row[headers.Source - 1] = 'Website';
+    row[headers['Unsubscribe Token'] - 1] = Utilities.getUuid();
+
+    sheet.appendRow(row);
+    return { success: true, message: 'Thanks — your weekly prospect research job alerts are active.' };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function unsubscribeSubscriber_(email, token) {
+  email = normalizeSubscriberEmail_(email);
+  token = String(token || '').trim();
+
+  if (!isValidSubscriberEmail_(email) || !token) {
+    return { success: false, message: 'This unsubscribe link is invalid or incomplete.' };
+  }
+
+  const lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(10000)) {
+    return { success: false, message: 'The subscriber list is busy. Please try this link again in a moment.' };
+  }
+
+  try {
+    const sheet = ensureSubscribersSheet_();
+    const headers = subscriberHeaderMap_(sheet);
+    const data = sheet.getDataRange().getValues();
+
+    for (let i = 1; i < data.length; i++) {
+      const rowEmail = normalizeSubscriberEmail_(data[i][headers.Email - 1]);
+      const rowToken = String(data[i][headers['Unsubscribe Token'] - 1] || '').trim();
+
+      if (rowEmail === email && rowToken === token) {
+        sheet.getRange(i + 1, headers.Status).setValue('Unsubscribed');
+        return { success: true, message: 'You will no longer receive the weekly jobs digest.' };
+      }
+    }
+
+    return { success: false, message: 'This unsubscribe link is invalid or has expired.' };
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function normalizeSubscriberEmail_(email) {
+  return String(email || '').trim().toLowerCase();
+}
+
+function isValidSubscriberEmail_(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(email || ''));
+}
+
+function ensureSubscribersSheet_() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   let sheet = ss.getSheetByName('Subscribers');
 
   if (!sheet) {
     sheet = ss.insertSheet('Subscribers');
-    sheet.getRange(1, 1, 1, 4).setValues([[
-      'Email',
-      'Date Joined',
-      'Status',
-      'Source'
-    ]]);
   }
 
-  const data = sheet.getDataRange().getDisplayValues();
-  const existing = data.slice(1).some(row => String(row[0]).trim().toLowerCase() === email);
+  if (sheet.getLastRow() === 0) {
+    sheet.getRange(1, 1, 1, SUBSCRIBER_HEADERS.length).setValues([SUBSCRIBER_HEADERS]);
+  } else {
+    const lastColumn = Math.max(sheet.getLastColumn(), 1);
+    const existingHeaders = sheet.getRange(1, 1, 1, lastColumn).getDisplayValues()[0]
+      .map(header => String(header || '').trim());
+    let nextColumn = existingHeaders.length + 1;
 
-  if (existing) {
-    return { success: true, message: 'You are already subscribed.' };
+    SUBSCRIBER_HEADERS.forEach(header => {
+      if (!existingHeaders.includes(header)) {
+        sheet.getRange(1, nextColumn).setValue(header);
+        existingHeaders.push(header);
+        nextColumn++;
+      }
+    });
   }
 
-  sheet.appendRow([email, new Date(), 'Active', 'Website']);
+  sheet.setFrozenRows(1);
+  return sheet;
+}
 
-  return { success: true, message: 'Thanks — you are subscribed.' };
+function subscriberHeaderMap_(sheet) {
+  const headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getDisplayValues()[0];
+  const map = {};
+
+  headers.forEach((header, index) => {
+    map[String(header || '').trim()] = index + 1;
+  });
+
+  SUBSCRIBER_HEADERS.forEach(header => {
+    if (!map[header]) throw new Error('Missing subscriber column: ' + header);
+  });
+
+  return map;
 }
 
 // --------------------------------------------------------------------------
@@ -1368,100 +1513,269 @@ function runArchiveOldJobsCore() {
   return { archived: archived };
 }
 
-function sendWeeklyDigest() {
-  const ss = SpreadsheetApp.getActiveSpreadsheet();
-  const jobsSheet = ss.getSheetByName('Jobs');
-  const subscribersSheet = ss.getSheetByName('Subscribers');
+function setupWeeklyDigest() {
+  deleteWeeklyDigestTriggers_();
+  ensureSubscribersSheet_();
 
-  if (!jobsSheet) throw new Error('No Jobs sheet found.');
-  if (!subscribersSheet) throw new Error('No Subscribers sheet found.');
+  ScriptApp.newTrigger(WEEKLY_DIGEST_HANDLER)
+    .timeBased()
+    .onWeekDay(ScriptApp.WeekDay.MONDAY)
+    .atHour(8)
+    .create();
 
-  const jobsData = jobsSheet.getDataRange().getDisplayValues();
-  const subsData = subscribersSheet.getDataRange().getDisplayValues();
-
-  if (jobsData.length < 2 || subsData.length < 2) {
-    safeAlert('No jobs or subscribers available for digest.');
-    return;
-  }
-
-  const jobHeaders = jobsData[0].map(h => String(h).trim());
-  const subHeaders = subsData[0].map(h => String(h).trim());
-
-  const emailCol = subHeaders.indexOf('Email');
-  const statusCol = subHeaders.indexOf('Status');
-
-  const subscribers = subsData.slice(1)
-    .filter(row => String(row[statusCol] || '').trim().toLowerCase() === 'active')
-    .map(row => String(row[emailCol] || '').trim())
-    .filter(email => email && email.includes('@'));
-
-  const jobs = jobsData.slice(1).map(row => {
-    const job = {};
-    jobHeaders.forEach((header, i) => job[header] = row[i]);
-    return job;
-  }).filter(job => {
-    const status = String(job['Status'] || '').trim().toLowerCase();
-    if (status !== 'active') return false;
-
-    const added = new Date(job['Date Added']);
-    if (isNaN(added)) return false;
-
-    const ageDays = Math.floor((new Date() - added) / (1000 * 60 * 60 * 24));
-    return ageDays <= 7;
-  }).sort((a, b) => new Date(b['Date Added']) - new Date(a['Date Added']));
-
-  if (jobs.length === 0) {
-    safeAlert('No active jobs added in the last 7 days. Digest not sent.');
-    return;
-  }
-
-  const subject = 'New prospect research jobs this week';
-  const plainBody = buildDigestPlainText(jobs);
-  const htmlBody = buildDigestHtml(jobs);
-
-  subscribers.forEach(email => {
-    MailApp.sendEmail({
-      to: email,
-      subject: subject,
-      body: plainBody,
-      htmlBody: htmlBody,
-      replyTo: 'info@prospectresearchjobs.com',
-      name: 'Prospect Research Jobs'
-    });
-  });
-
-  safeAlert('Weekly digest sent to ' + subscribers.length + ' subscriber(s).');
+  safeAlert(
+    'Weekly alerts are enabled. The digest will run every Monday at approximately 8:00 AM in the ' +
+    'Apps Script project time zone. It reads the current jobs directly from ' + LIVE_JOBS_FEED_URL + '.'
+  );
 }
 
-function buildDigestPlainText(jobs) {
+function disableWeeklyDigest() {
+  deleteWeeklyDigestTriggers_();
+  safeAlert('Weekly alerts are disabled. Existing subscribers remain in the Subscribers sheet.');
+}
+
+function deleteWeeklyDigestTriggers_() {
+  ScriptApp.getProjectTriggers().forEach(trigger => {
+    if (trigger.getHandlerFunction() === WEEKLY_DIGEST_HANDLER) {
+      ScriptApp.deleteTrigger(trigger);
+    }
+  });
+
+  PropertiesService.getScriptProperties().deleteProperty(WEEKLY_DIGEST_RETRY_TRIGGER_PROP);
+}
+
+function sendWeeklyDigest() {
+  const lock = LockService.getScriptLock();
+
+  if (!lock.tryLock(30000)) {
+    logAutomationEvent('Weekly digest skipped because another digest run is still active.');
+    return;
+  }
+
+  try {
+    const now = new Date();
+    const digestKey = weeklyDigestKey_(now);
+    const sheet = ensureSubscribersSheet_();
+    const headers = subscriberHeaderMap_(sheet);
+    const data = sheet.getDataRange().getValues();
+
+    const subscribers = [];
+
+    for (let i = 1; i < data.length; i++) {
+      const email = normalizeSubscriberEmail_(data[i][headers.Email - 1]);
+      const status = String(data[i][headers.Status - 1] || '').trim().toLowerCase();
+      const lastDigest = String(data[i][headers['Last Digest'] - 1] || '').trim();
+
+      if (status !== 'active' || !isValidSubscriberEmail_(email) || lastDigest === digestKey) continue;
+
+      let token = String(data[i][headers['Unsubscribe Token'] - 1] || '').trim();
+      if (!token) {
+        token = Utilities.getUuid();
+        sheet.getRange(i + 1, headers['Unsubscribe Token']).setValue(token);
+      }
+
+      subscribers.push({ rowNumber: i + 1, email: email, token: token });
+    }
+
+    if (subscribers.length === 0) {
+      clearWeeklyDigestRetry_();
+      safeAlert('Weekly digest: no active subscribers are waiting for this week\'s email.');
+      return;
+    }
+
+    const jobs = fetchWeeklyDigestJobs_(now);
+
+    if (jobs.length === 0) {
+      clearWeeklyDigestRetry_();
+      safeAlert('Weekly digest: no new active jobs were added in the last 7 days, so no email was sent.');
+      return;
+    }
+
+    const remainingQuota = Math.max(0, Number(MailApp.getRemainingDailyQuota()) || 0);
+
+    if (remainingQuota === 0) {
+      scheduleWeeklyDigestRetry_();
+      safeAlert('Weekly digest paused because today\'s email quota is exhausted. It will retry tomorrow.');
+      return;
+    }
+
+    const sendableSubscribers = subscribers.slice(0, remainingQuota);
+    const subject = jobs.length + ' new prospect research job' + (jobs.length === 1 ? '' : 's') + ' this week';
+    let sent = 0;
+    let failed = 0;
+
+    sendableSubscribers.forEach(subscriber => {
+      const unsubscribeUrl = buildUnsubscribeUrl_(subscriber.email, subscriber.token);
+
+      try {
+        MailApp.sendEmail({
+          to: subscriber.email,
+          subject: subject,
+          body: buildDigestPlainText(jobs, unsubscribeUrl),
+          htmlBody: buildDigestHtml(jobs, unsubscribeUrl),
+          replyTo: 'info@prospectresearchjobs.com',
+          name: 'Prospect Research Jobs'
+        });
+
+        sheet.getRange(subscriber.rowNumber, headers['Last Sent']).setValue(now);
+        sheet.getRange(subscriber.rowNumber, headers['Last Digest']).setValue(digestKey);
+        sent++;
+      } catch (error) {
+        sheet.getRange(subscriber.rowNumber, headers.Status).setValue('Delivery Error');
+        logAutomationEvent('Weekly digest delivery failed for ' + subscriber.email + ': ' + error.message);
+        failed++;
+      }
+    });
+
+    const quotaDeferred = subscribers.length - sendableSubscribers.length;
+
+    if (quotaDeferred > 0) {
+      scheduleWeeklyDigestRetry_();
+    } else {
+      clearWeeklyDigestRetry_();
+    }
+
+    safeAlert(
+      'Weekly digest complete. Sent: ' + sent +
+      '. Delivery errors: ' + failed +
+      '. Deferred by email quota: ' + quotaDeferred + '.'
+    );
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function fetchWeeklyDigestJobs_(now) {
+  const response = UrlFetchApp.fetch(LIVE_JOBS_FEED_URL + '?weeklyDigest=' + now.getTime(), {
+    muteHttpExceptions: true,
+    followRedirects: true,
+    headers: { 'User-Agent': 'ProspectResearchJobs-WeeklyDigest/1.0' }
+  });
+  const status = response.getResponseCode();
+
+  if (status < 200 || status >= 300) {
+    throw new Error('Could not load the live jobs feed (HTTP ' + status + ').');
+  }
+
+  let payload;
+
+  try {
+    payload = JSON.parse(response.getContentText());
+  } catch (error) {
+    throw new Error('The live jobs feed returned invalid JSON.');
+  }
+
+  if (!payload || !Array.isArray(payload.jobs)) {
+    throw new Error('The live jobs feed does not contain a jobs array.');
+  }
+
+  const cutoff = now.getTime() - (7 * 24 * 60 * 60 * 1000);
+  const futureTolerance = now.getTime() + (24 * 60 * 60 * 1000);
+
+  return payload.jobs
+    .filter(job => String(job && job.status || '').trim().toLowerCase() === 'active')
+    .map(job => ({
+      title: String(job.title || '').trim(),
+      employer: String(job.employer || '').trim(),
+      location: String(job.location || '').trim(),
+      workMode: String(job.workMode || '').trim(),
+      salaryRange: String(job.salaryRange || '').trim(),
+      dateAdded: String(job.dateAdded || '').trim(),
+      applyUrl: String(job.applyUrl || job.sourceUrl || '').trim(),
+      summary: String(job.summary || '').trim()
+    }))
+    .filter(job => {
+      const added = new Date(job.dateAdded).getTime();
+      return job.title && job.employer && /^https?:\/\//i.test(job.applyUrl) &&
+        !isNaN(added) && added >= cutoff && added <= futureTolerance;
+    })
+    .sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+}
+
+function weeklyDigestKey_(date) {
+  return Utilities.formatDate(date, Session.getScriptTimeZone(), "YYYY-'W'ww");
+}
+
+function buildUnsubscribeUrl_(email, token) {
+  const webAppUrl = ScriptApp.getService().getUrl();
+
+  if (!webAppUrl) {
+    throw new Error('Deploy this Apps Script project as a web app before sending the weekly digest.');
+  }
+
+  return webAppUrl + '?action=unsubscribe&email=' + encodeURIComponent(email) +
+    '&token=' + encodeURIComponent(token);
+}
+
+function scheduleWeeklyDigestRetry_() {
+  clearWeeklyDigestRetry_();
+
+  const trigger = ScriptApp.newTrigger(WEEKLY_DIGEST_HANDLER)
+    .timeBased()
+    .after(24 * 60 * 60 * 1000)
+    .create();
+
+  PropertiesService.getScriptProperties()
+    .setProperty(WEEKLY_DIGEST_RETRY_TRIGGER_PROP, trigger.getUniqueId());
+}
+
+function clearWeeklyDigestRetry_() {
+  const props = PropertiesService.getScriptProperties();
+  const retryTriggerId = props.getProperty(WEEKLY_DIGEST_RETRY_TRIGGER_PROP);
+
+  if (retryTriggerId) {
+    ScriptApp.getProjectTriggers().forEach(trigger => {
+      if (trigger.getUniqueId() === retryTriggerId) {
+        ScriptApp.deleteTrigger(trigger);
+      }
+    });
+  }
+
+  props.deleteProperty(WEEKLY_DIGEST_RETRY_TRIGGER_PROP);
+}
+
+function buildDigestPlainText(jobs, unsubscribeUrl) {
   let body = 'New prospect research jobs this week\n\n';
 
   jobs.slice(0, 25).forEach(job => {
-    body += '• ' + (job['Job Title'] || 'Untitled Job') + ' — ' + (job['Employer'] || 'Unknown employer') + '\n';
-    body += '  ' + (job['Location'] || 'Location not listed') + ' · ' + (job['Work Mode'] || 'Unknown') + '\n';
-    body += '  ' + (job['Apply URL'] || job['Source URL'] || '') + '\n\n';
+    body += '• ' + (job.title || 'Untitled Job') + ' — ' + (job.employer || 'Unknown employer') + '\n';
+    body += '  ' + (job.location || 'Location not listed') + ' · ' + (job.workMode || 'Unknown');
+    if (job.salaryRange && job.salaryRange.toLowerCase() !== 'not listed') {
+      body += ' · ' + job.salaryRange;
+    }
+    body += '\n  ' + job.applyUrl + '\n\n';
   });
 
-  body += 'ProspectResearchJobs.com\n';
-  body += 'Questions or job submissions: info@prospectresearchjobs.com\n';
+  body += 'Browse all current jobs: ' + PUBLIC_SITE_URL + '\n';
+  body += 'Questions or job submissions: info@prospectresearchjobs.com\n\n';
+  body += 'Unsubscribe: ' + unsubscribeUrl + '\n';
 
   return body;
 }
 
-function buildDigestHtml(jobs) {
-  let html = '<div style="font-family:Arial,Helvetica,sans-serif;color:#252A2E;">';
-  html += '<h2>New prospect research jobs this week</h2>';
+function buildDigestHtml(jobs, unsubscribeUrl) {
+  let html = '<div style="font-family:Arial,Helvetica,sans-serif;color:#252A2E;line-height:1.5;max-width:680px;margin:0 auto;">';
+  html += '<p style="font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#667275;">Prospect Research Jobs</p>';
+  html += '<h2 style="margin-top:0;">New prospect research jobs this week</h2>';
 
   jobs.slice(0, 25).forEach(job => {
-    const url = escapeHtml(job['Apply URL'] || job['Source URL'] || '#');
-    html += '<div style="margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid #DDD6C8;">';
-    html += '<strong><a href="' + url + '" style="color:#2F5D7C;">' + escapeHtml(job['Job Title'] || 'Untitled Job') + '</a></strong><br>';
-    html += escapeHtml(job['Employer'] || 'Unknown employer') + ' · ' + escapeHtml(job['Location'] || 'Location not listed') + ' · ' + escapeHtml(job['Work Mode'] || 'Unknown') + '<br>';
-    html += '<span style="color:#667275;">' + escapeHtml(job['Summary'] || '') + '</span>';
+    const url = escapeHtml(job.applyUrl || '#');
+    const salary = job.salaryRange && job.salaryRange.toLowerCase() !== 'not listed'
+      ? ' · ' + escapeHtml(job.salaryRange)
+      : '';
+
+    html += '<div style="margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #DDD6C8;">';
+    html += '<strong><a href="' + url + '" style="color:#2F5D7C;">' + escapeHtml(job.title || 'Untitled Job') + '</a></strong><br>';
+    html += escapeHtml(job.employer || 'Unknown employer') + ' · ' + escapeHtml(job.location || 'Location not listed') + ' · ' + escapeHtml(job.workMode || 'Unknown') + salary + '<br>';
+    if (job.summary) {
+      html += '<span style="color:#667275;">' + escapeHtml(job.summary) + '</span>';
+    }
     html += '</div>';
   });
 
-  html += '<p style="color:#667275;font-size:12px;">ProspectResearchJobs.com · Questions or job submissions: info@prospectresearchjobs.com</p>';
+  html += '<p><a href="' + PUBLIC_SITE_URL + '" style="display:inline-block;background:#2F5D7C;color:#fff;text-decoration:none;padding:10px 16px;border-radius:6px;font-weight:700;">Browse all current jobs</a></p>';
+  html += '<p style="color:#667275;font-size:12px;">Questions or job submissions: <a href="mailto:info@prospectresearchjobs.com" style="color:#2F5D7C;">info@prospectresearchjobs.com</a><br>';
+  html += 'You received this because you subscribed at ProspectResearchJobs.com. <a href="' + escapeHtml(unsubscribeUrl) + '" style="color:#2F5D7C;">Unsubscribe</a>.</p>';
   html += '</div>';
 
   return html;
