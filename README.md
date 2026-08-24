@@ -16,9 +16,21 @@ Public GitHub Pages front end for [ProspectResearchJobs.com](https://prospectres
 
 The GitHub Actions workflow runs once daily and on demand. It searches selected public APRA chapter boards, advancement career centers, and higher-education/philanthropy job boards; follows job-detail pages; and publishes only complete, current listings.
 
-No Google Apps Script, connector, secret, or manual refresh is required. Confirmed closed pages and postings over 30 days old are removed. Temporary source failures preserve the last verified snapshot, and unchanged runs do not create commits.
+No Google Apps Script, connector, secret, or manual refresh is required for job collection. Confirmed closed pages and postings over 30 days old are removed. Temporary source failures preserve the last verified snapshot, and unchanged runs do not create commits.
 
 The legacy Apps Script importer remains available as `npm run sync:feed`, but it is not used by the scheduled workflow.
+
+## Weekly email alerts
+
+The signup form posts to the existing Google Apps Script web app. Subscriber addresses stay in the spreadsheet's `Subscribers` tab, while each Monday's digest reads current listings from `https://prospectresearchjobs.com/data/jobs.json`.
+
+To activate or update the alerts:
+
+1. Open the spreadsheet's bound Apps Script project and replace `Code.gs` with `apps-script/Code.gs` from this repository.
+2. Save, select `setupWeeklyDigest`, click **Run**, and approve the requested spreadsheet, external-request, and email permissions.
+3. Open **Deploy → Manage deployments**, edit the existing web app, choose **New version**, set **Execute as** to yourself and **Who has access** to **Anyone**, then deploy.
+
+`setupWeeklyDigest` is safe to run again: it removes duplicate digest triggers and creates one Monday trigger at approximately 8:00 AM in the Apps Script project time zone. Delivery is protected against duplicate sends, respects the Apps Script daily email quota, and adds a private unsubscribe link to every message.
 
 ## GitHub Pages
 
