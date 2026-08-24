@@ -14,7 +14,7 @@ Public GitHub Pages front end for [ProspectResearchJobs.com](https://prospectres
 
 ## Automatic updates
 
-The GitHub Actions workflow runs every four hours and on demand. It searches selected public APRA chapter boards, advancement career centers, and higher-education/philanthropy job boards; follows job-detail pages; and publishes only complete, current listings.
+The GitHub Actions workflow runs once daily and on demand. It searches selected public APRA chapter boards, advancement career centers, and higher-education/philanthropy job boards; follows job-detail pages; and publishes only complete, current listings.
 
 No Google Apps Script, connector, secret, or manual refresh is required. Confirmed closed pages and postings over 30 days old are removed. Temporary source failures preserve the last verified snapshot, and unchanged runs do not create commits.
 
