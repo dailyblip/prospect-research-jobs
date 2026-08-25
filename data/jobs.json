@@ -1,9 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T00:00:07.884Z",
-  "count": 20,
+  "generatedAt": "2026-08-25T14:02:04.141Z",
+  "count": 22,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director of Prospect Research and Analysis",
+      "employer": "Colby College",
+      "location": "Waterville, ME",
+      "workMode": "Unknown",
+      "salaryRange": "Minimum: $64,470 - Maximum: $112,849 (targeted salary: $84,000; commensurate with experience)",
+      "postedDate": "2026-08-25",
+      "dateAdded": "2026-08-25T14:02:04.141Z",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179537665&Title=Director%20of%20Prospect%20Research%20and%20Analysis",
+      "summary": "",
+      "tags": "Prospect Research, Advancement Analytics, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Researcher",
+      "employer": "Facing History & Ourselves",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-24",
+      "dateAdded": "2026-08-25T14:02:04.141Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.facinghistory.org/careers-facing-history?jobId=02EE3E43-0394-AA89-BEC0-AF8E405D0E03",
+      "summary": "",
+      "tags": "Prospect Research, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Research Analyst II",
+      "employer": "Compassion International",
+      "location": "Remote",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-24",
+      "dateAdded": "2026-08-25T14:02:04.141Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://compassion.wd5.myworkdayjobs.com/CompassionCareers/job/Remote---USA/Prospect-Research-Analyst-II_R8520?source=LinkedIn",
+      "summary": "",
+      "tags": "Prospect Research, Advancement Analytics, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Director of Prospect Development (Wilmington, NC)",
@@ -126,6 +171,21 @@
     },
     {
       "status": "Active",
+      "title": "Development Coordinator, Prospect Management and Research (Remote)",
+      "employer": "Partners in Health",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-12",
+      "dateAdded": "2026-08-23T23:45:00.000Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://www.pih.org/employment?p=job%2FoOIDAfwt",
+      "summary": "",
+      "tags": "Prospect Management, Remote"
+    },
+    {
+      "status": "Active",
       "title": "Prospect Research & Grant Specialist",
       "employer": "Novant Health",
       "location": "Hybrid/Salisbury, NC",
@@ -216,21 +276,6 @@
     },
     {
       "status": "Active",
-      "title": "Development Coordinator, Prospect Management and Research",
-      "employer": "Partners in Health",
-      "location": "Boston or Remote",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-01",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://www.pih.org/employment?p=job%2FoYCwAfwq&nl=1",
-      "summary": "",
-      "tags": "Prospect Management, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Sr. Manager, Prospect Development",
       "employer": "American Cancer Society",
       "location": "Remote",
@@ -276,21 +321,6 @@
     },
     {
       "status": "Active",
-      "title": "Director Prospect Management - 530108",
-      "employer": "The University of Alabama",
-      "location": "Tuscaloosa, Alabama, US",
-      "workMode": "Onsite",
-      "salaryRange": "$83,500 - $112,700",
-      "postedDate": "2026-07-29",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "University of Alabama Careers",
-      "sourceUrl": "https://careers.ua.edu/jobs/director-prospect-management-530108-tuscaloosa-alabama-united-states",
-      "applyUrl": "https://careers.ua.edu/jobs/director-prospect-management-530108-tuscaloosa-alabama-united-states",
-      "summary": "Pay Grade/Pay Range: Minimum: $83,500 - Midpoint: $112,700 (Salaried E13) Department/Organization: 301102 - Advancement Services Normal Work Schedule: Monday - Friday 8:00am to 5:00pm Job Summary: The Director of Prospect Management defines, implements, and ma…",
-      "tags": "Prospect Research, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Associate, Donor Relations",
       "employer": "The Heritage Foundation",
       "location": "Washington, DC",
@@ -309,7 +339,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 16
+      "found": 18
     },
     {
       "source": "Apra Northwest",
@@ -319,7 +349,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 6
+      "found": 7
     },
     {
       "source": "Apra Georgia",
@@ -329,7 +359,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 2
+      "found": 3
     },
     {
       "source": "CARA",
@@ -357,7 +387,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
