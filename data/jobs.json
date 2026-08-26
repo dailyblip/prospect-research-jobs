@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T14:02:04.141Z",
+  "generatedAt": "2026-08-26T14:02:58.447Z",
   "count": 22,
   "rejectedCount": 0,
   "jobs": [
@@ -10,11 +10,11 @@
       "employer": "Colby College",
       "location": "Waterville, ME",
       "workMode": "Unknown",
-      "salaryRange": "Minimum: $64,470 - Maximum: $112,849 (targeted salary: $84,000; commensurate with experience)",
+      "salaryRange": "Not listed",
       "postedDate": "2026-08-25",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179537665&Title=Director%20of%20Prospect%20Research%20and%20Analysis",
       "summary": "",
       "tags": "Prospect Research, Advancement Analytics, Leadership"
@@ -387,7 +387,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
