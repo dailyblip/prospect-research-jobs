@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T14:02:58.447Z",
+  "generatedAt": "2026-08-27T22:57:03.575Z",
   "count": 22,
   "rejectedCount": 0,
   "jobs": [
     {
       "status": "Active",
-      "title": "Director of Prospect Research and Analysis",
-      "employer": "Colby College",
-      "location": "Waterville, ME",
+      "title": "Prospect Development Analyst",
+      "employer": "Vassar College",
+      "location": "Poughkeepsie, NY",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-08-25",
+      "postedDate": "2026-08-26",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179537665&Title=Director%20of%20Prospect%20Research%20and%20Analysis",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179539192&Title=Prospect%20Development%20Analyst",
       "summary": "",
-      "tags": "Prospect Research, Advancement Analytics, Leadership"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -339,7 +339,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 18
+      "found": 15
     },
     {
       "source": "Apra Northwest",
@@ -387,7 +387,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
