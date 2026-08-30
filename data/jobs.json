@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T23:01:09.986Z",
-  "count": 22,
+  "generatedAt": "2026-08-30T17:27:26.517Z",
+  "count": 21,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -303,21 +303,6 @@
       "applyUrl": "https://nshe.wd1.myworkdayjobs.com/en-US/UNR-external/job/Director-of-Prospect-Intelligence-and-Pipeline-Optimization--Advancement-Services_R0152535",
       "summary": "Leads prospect intelligence, prospect management, analytics, and enterprise pipeline optimization for Advancement Services.",
       "tags": "Prospect Intelligence, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Director of Advancement Analytics and Insights",
-      "employer": "San José State University",
-      "location": "San José, CA",
-      "workMode": "Onsite",
-      "salaryRange": "$9,167 - $10,000 monthly",
-      "postedDate": "2026-07-30",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "SJSU Careers",
-      "sourceUrl": "https://jobs.sjsu.edu/en-us/job/560551/director-of-advancement-analytics-and-insights",
-      "applyUrl": "https://jobs.sjsu.edu/en-us/job/560551/director-of-advancement-analytics-and-insights",
-      "summary": "Leads advancement business intelligence, fundraising analytics, dashboards, forecasting, and predictive modeling.",
-      "tags": "Advancement Analytics, Business Intelligence, Fundraising, Leadership"
     },
     {
       "status": "Active",
