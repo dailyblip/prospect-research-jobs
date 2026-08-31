@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T17:27:26.517Z",
-  "count": 21,
+  "generatedAt": "2026-08-31T19:29:43.389Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
     {
       "status": "Active",
-      "title": "Prospect Research Analyst II",
-      "employer": "R108251",
-      "location": "University of Louisville",
+      "title": "Program Assistant 3, Prospect Research and Management",
+      "employer": "Northwestern University",
+      "location": "Evanston, IL",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
       "postedDate": "2026-08-28",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179541336&Title=Prospect%20Research%20Analyst%20II%20%2D%20R108251",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179542000&Title=Program%20Assistant%203%2C%20Prospect%20Research%20and%20Management",
       "summary": "",
       "tags": "Prospect Research"
     },
@@ -186,21 +186,6 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Research & Grant Specialist",
-      "employer": "Novant Health",
-      "location": "Hybrid/Salisbury, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-10",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://jobs.novanthealth.org/careers-home/jobs/237934?lang=en-us",
-      "summary": "What We Offer In this role, you’ll serve as a key member of the Novant Health Foundation grants team, balancing detailed post-award grant management with strategic prospect research. This position is ideal for someone who enjoys working with both numbers and n…",
-      "tags": "Prospect Research, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Director, Prospect Development",
       "employer": "Seattle University",
       "location": "Seattle, WA",
@@ -288,21 +273,6 @@
       "applyUrl": "https://jobs.cancer.org/job/atlanta/sr-manager-prospect-development-remote/79/98572769072",
       "summary": "",
       "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Director of Prospect Intelligence and Pipeline Optimization",
-      "employer": "University of Nevada, Reno",
-      "location": "Reno, NV",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-07-31",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "AASP Job Board",
-      "sourceUrl": "https://aasp.mcjobboard.net/jobs/231919",
-      "applyUrl": "https://nshe.wd1.myworkdayjobs.com/en-US/UNR-external/job/Director-of-Prospect-Intelligence-and-Pipeline-Optimization--Advancement-Services_R0152535",
-      "summary": "Leads prospect intelligence, prospect management, analytics, and enterprise pipeline optimization for Advancement Services.",
-      "tags": "Prospect Intelligence, Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
