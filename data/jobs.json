@@ -1,9 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T17:19:00.482Z",
-  "count": 25,
+  "generatedAt": "2026-09-03T17:02:09.395Z",
+  "count": 27,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director, Principal Gift Prospect Intelligence and Strategy",
+      "employer": "Temple University",
+      "location": "Philadelphia, Pennsylvania, United States",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-03",
+      "dateAdded": "2026-09-03T17:02:09.395Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://temple.taleo.net/careersection/tu_ex_staff/jobdetail.ftl?job=26002116&lang=en&source=JB-10222",
+      "summary": "Temple University's Institutional Advancement Department is searching for a Director, Principal Gift Prospect Intelligence and Strategy! Become a part of the Temple family and you will have access to the following: A hybrid work schedule Full medical, dental,…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Philanthropic Strategy & Prospect Management",
+      "employer": "North Carolina State University",
+      "location": "Raleigh-Durham-Chapel Hill, NC",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-03",
+      "dateAdded": "2026-09-03T17:02:09.395Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://jobs.ncsu.edu/postings/234603",
+      "summary": "",
+      "tags": "Prospect Management, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Director, Research & Prospect Management",
+      "employer": "Wildlife Conservation Society",
+      "location": "New York, NY",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-02",
+      "dateAdded": "2026-09-03T17:02:09.395Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25965&siteid=5168&jobId=922462&src=Linkedin#jobDetails=922462_5168#jobDetails=922462_5168",
+      "summary": "",
+      "tags": "Prospect Management, Leadership"
+    },
     {
       "status": "Active",
       "title": "Director of Prospect Research (New Adjusted Salary)",
@@ -351,21 +396,6 @@
     },
     {
       "status": "Active",
-      "title": "Sr. Prospect Management Analyst (Hybrid)",
-      "employer": "Duke Health Development & Alumni Affairs",
-      "location": "Hybrid",
-      "workMode": "Hybrid",
-      "salaryRange": "$62,766-$97,798",
-      "postedDate": "2026-08-03",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://careers.duke.edu/job/Durham-Senior-Prospect-Management-Analyst-NC-27710/1414189000/",
-      "summary": "",
-      "tags": "Prospect Management"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Associate, Donor Relations",
       "employer": "The Heritage Foundation",
       "location": "Washington, DC",
@@ -384,7 +414,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 15
+      "found": 11
     },
     {
       "source": "Apra Northwest",
@@ -394,7 +424,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 7
+      "found": 8
     },
     {
       "source": "Apra Georgia",
@@ -414,8 +444,9 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": true,
-      "found": 8
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CASE Career Central",
@@ -426,7 +457,7 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "HigherEdJobs — Prospect Development",
