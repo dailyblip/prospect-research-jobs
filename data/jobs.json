@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T17:02:09.395Z",
+  "generatedAt": "2026-09-04T16:51:29.446Z",
   "count": 27,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director of Prospect Research",
+      "employer": "Georgia Institute of Technology",
+      "location": "(on-site)",
+      "workMode": "Onsite",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-02",
+      "dateAdded": "2026-09-04T16:51:29.446Z",
+      "source": "Apra Career Center",
+      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
+      "applyUrl": "https://apra.careerwebsite.com/job/director-of-prospect-research/85809542/",
+      "summary": "",
+      "tags": "Prospect Research, Leadership"
+    },
     {
       "status": "Active",
       "title": "Director, Principal Gift Prospect Intelligence and Strategy",
@@ -112,17 +127,17 @@
     {
       "status": "Active",
       "title": "Associate Director, Prospect Intelligence",
-      "employer": "North Carolina State University",
-      "location": "Raleigh, NC, US",
+      "employer": "Preferred",
+      "location": "(hybrid)",
       "workMode": "Hybrid",
-      "salaryRange": "90,000 - 95,000 year",
-      "postedDate": "2026-08-11",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-12",
       "dateAdded": "2026-09-01T17:19:00.482Z",
       "source": "Apra Career Center",
       "sourceUrl": "https://apra.careerwebsite.com/jobs/",
       "applyUrl": "https://apra.careerwebsite.com/job/associate-director-prospect-intelligence/85514308/",
-      "summary": "The Associate Director of Prospect Intelligence leads the research and analytics function within Prospect Development, advancing a sophisticated, datainformed approach to prospect identification, principalgift strategy, and pipeline development. This role mana…",
-      "tags": "Prospect Development, Advancement Analytics, Leadership"
+      "summary": "",
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -156,33 +171,18 @@
     },
     {
       "status": "Active",
-      "title": "Senior Associate Director, Prospect Management",
-      "employer": "Washington University in St. Louis",
-      "location": "(on-site)",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-04",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/senior-associate-director-prospect-management/85402296/",
-      "summary": "",
-      "tags": "Prospect Management, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Program Assistant 3, Prospect Research and Management",
-      "employer": "Northwestern University",
-      "location": "Evanston, IL",
+      "title": "Director, Principal Gift Prospect Intelligence and Strategy",
+      "employer": "Temple University",
+      "location": "Philadelphia, PA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-08-28",
+      "postedDate": "2026-09-03",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179542000&Title=Program%20Assistant%203%2C%20Prospect%20Research%20and%20Management",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179547091&Title=Director%2C%20Principal%20Gift%20Prospect%20Intelligence%20and%20Strategy",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -444,9 +444,8 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": false,
-      "found": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "found": 8
     },
     {
       "source": "CASE Career Central",
@@ -457,12 +456,12 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
