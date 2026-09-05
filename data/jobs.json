@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T16:51:29.446Z",
-  "count": 27,
+  "generatedAt": "2026-09-05T16:03:04.007Z",
+  "count": 26,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Program Assistant 3, Prospect Research and Management",
+      "employer": "Northwestern University",
+      "location": "Evanston, IL, US",
+      "workMode": "Hybrid",
+      "salaryRange": "23 - 24 hour",
+      "postedDate": "2026-09-04",
+      "dateAdded": "2026-09-05T16:03:04.007Z",
+      "source": "Apra Career Center",
+      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
+      "applyUrl": "https://apra.careerwebsite.com/job/program-assistant-3-prospect-research-and-management/85842224/",
+      "summary": "Program Assistant 3, Prospect Research and Management Job ID: 54376 Location: Evanston, Illinois Department: Alumni Relations & Development Salary/Grade: NEX/11 Job Summary: The Prospect Research and Management (PRM) team works with frontline fundraisers to bu…",
+      "tags": "Prospect Research, Prospect Development, Advancement Analytics, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Director of Prospect Research",
@@ -127,17 +142,17 @@
     {
       "status": "Active",
       "title": "Associate Director, Prospect Intelligence",
-      "employer": "Preferred",
-      "location": "(hybrid)",
+      "employer": "North Carolina State University",
+      "location": "Raleigh, NC, US",
       "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-12",
+      "salaryRange": "90,000 - 95,000 year",
+      "postedDate": "2026-08-11",
       "dateAdded": "2026-09-01T17:19:00.482Z",
       "source": "Apra Career Center",
       "sourceUrl": "https://apra.careerwebsite.com/jobs/",
       "applyUrl": "https://apra.careerwebsite.com/job/associate-director-prospect-intelligence/85514308/",
-      "summary": "",
-      "tags": "Leadership"
+      "summary": "The Associate Director of Prospect Intelligence leads the research and analytics function within Prospect Development, advancing a sophisticated, datainformed approach to prospect identification, principalgift strategy, and pipeline development. This role mana…",
+      "tags": "Prospect Development, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -153,21 +168,6 @@
       "applyUrl": "https://apra.careerwebsite.com/job/manager-prospect-research-portfolio-development/85442440/",
       "summary": "WHO IS USA LACROSSE USA Lacrosse, a 501(c)(3) nonprofit corporation, is a Recognized Sports Organization of the United States Olympic & Paralympic Committee who proudly serves the sport by bringing the energy and excitement of our efforts to players, coaches,…",
       "tags": "Prospect Research, Prospect Management, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Management Consultant",
-      "employer": "WashU",
-      "location": "Clayton, MO, US",
-      "workMode": "Hybrid",
-      "salaryRange": "58,400 - 68,000 year",
-      "postedDate": "2026-08-05",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/prospect-management-consultant/85425958/",
-      "summary": "Location: St. Louis, MO (Hybrid Optional) | Type: Full-Time | Target Salary Range: $58,400 – $68,000 Why Join Us? Are you an organized, data-fluent professional with a talent for building relationships, translating complex analytics into clear strategy, and co…",
-      "tags": "Prospect Research, Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -378,21 +378,6 @@
       "applyUrl": "https://jobs.jmu.edu/jobs/prospect-development-analyst-harrisonburg-virginia-united-states",
       "summary": "Working Title: Prospect Development Analyst State Role Title: Public Relations and Marketing Specialist III Position Type: Full-time Staff (Classified) Position Status: Full-Time FLSA Status: Exempt: Not Eligible for Overtime College/Division: Advancement Info…",
       "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Analyst (Hybrid/Davidson, NC)",
-      "employer": "Davidson College",
-      "location": "Hybrid/Davidson, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-05",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/993/?utm_medium=jobshare&utm_source=External+Job+Share",
-      "summary": "",
-      "tags": "Prospect Research"
     },
     {
       "status": "Active",
