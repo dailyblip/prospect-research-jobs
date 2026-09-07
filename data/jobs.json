@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T16:14:25.086Z",
-  "count": 24,
+  "generatedAt": "2026-09-07T18:14:33.734Z",
+  "count": 23,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -167,7 +167,7 @@
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179547091&Title=Director%2C%20Principal%20Gift%20Prospect%20Intelligence%20and%20Strategy",
       "summary": "",
-      "tags": "Advancement Analytics, Leadership"
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -333,21 +333,6 @@
       "applyUrl": "https://seattleu.wd108.myworkdayjobs.com/en-US/SeattleUJobs/job/Seattle-University/Director--Prospect-Development_JR100158",
       "summary": "Leads prospect identification, portfolio management, research operations, analytics, and campaign support.",
       "tags": "Prospect Development, Prospect Research, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Analyst",
-      "employer": "William & Mary",
-      "location": "Williamsburg, VA",
-      "workMode": "Hybrid",
-      "salaryRange": "$50,000 - $55,000",
-      "postedDate": "2026-08-07",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "HigherEdJobs",
-      "sourceUrl": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179518166",
-      "applyUrl": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179518166",
-      "summary": "Prospect research analyst role supporting university advancement and fundraising.",
-      "tags": "Prospect Research, Higher Education, Hybrid"
     },
     {
       "status": "Active",
