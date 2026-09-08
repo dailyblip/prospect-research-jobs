@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T18:14:33.734Z",
-  "count": 23,
+  "generatedAt": "2026-09-08T17:14:26.426Z",
+  "count": 21,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -156,18 +156,18 @@
     },
     {
       "status": "Active",
-      "title": "Director, Principal Gift Prospect Intelligence and Strategy",
-      "employer": "Temple University",
-      "location": "Philadelphia, PA",
+      "title": "Director of Philanthropic Strategy & Prospect Management",
+      "employer": "North Carolina State University",
+      "location": "Raleigh, NC",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-03",
+      "postedDate": "2026-09-04",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179547091&Title=Director%2C%20Principal%20Gift%20Prospect%20Intelligence%20and%20Strategy",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179548160&Title=Director%20of%20Philanthropic%20Strategy%20%26%20Prospect%20Management",
       "summary": "",
-      "tags": "Leadership"
+      "tags": "Prospect Management, Leadership"
     },
     {
       "status": "Active",
@@ -276,21 +276,6 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Management Analyst",
-      "employer": "University of Oregon",
-      "location": "Eugene, Oregon, United States",
-      "workMode": "Hybrid",
-      "salaryRange": "$23 - $35 hour",
-      "postedDate": "2026-08-12",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "WACUBO Career Center",
-      "sourceUrl": "https://jobs.wacubo.org/job/279/prospect-management-analyst/",
-      "applyUrl": "https://jobs.wacubo.org/job/279/prospect-management-analyst/",
-      "summary": "Hybrid eligible - located in Eugene or Portland, Oregon Review of Applications Begins August 31, 2026; position open until filled Special Instructions to Applicants To be considered for this position, applicants must submit a complete application that includes…",
-      "tags": "Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Associate Director, Prospect Intelligence (Hybrid/Raleigh, NC)",
       "employer": "NC State University",
       "location": "Hybrid/Raleigh, NC",
@@ -318,21 +303,6 @@
       "applyUrl": "https://www.pih.org/employment?p=job%2FoOIDAfwt",
       "summary": "",
       "tags": "Prospect Management, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Director, Prospect Development",
-      "employer": "Seattle University",
-      "location": "Seattle, WA",
-      "workMode": "Hybrid",
-      "salaryRange": "$100,000 - $110,000",
-      "postedDate": "2026-08-08",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Academic Careers",
-      "sourceUrl": "https://academiccareers.com/job/178481/director-prospect-development/",
-      "applyUrl": "https://seattleu.wd108.myworkdayjobs.com/en-US/SeattleUJobs/job/Seattle-University/Director--Prospect-Development_JR100158",
-      "summary": "Leads prospect identification, portfolio management, research operations, analytics, and campaign support.",
-      "tags": "Prospect Development, Prospect Research, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -384,8 +354,9 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": true,
-      "found": 7
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CASE Career Central",
