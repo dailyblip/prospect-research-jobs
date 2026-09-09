@@ -1,9 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-08T17:14:26.426Z",
-  "count": 21,
+  "generatedAt": "2026-09-09T17:08:57.674Z",
+  "count": 24,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Assistant Director of Research and Prospect Management",
+      "employer": "School of the Art Institute of Chicago",
+      "location": "Chicago, IL",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-08",
+      "dateAdded": "2026-09-09T17:08:57.674Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://recruiting2.ultipro.com/ART1010AICH/JobBoard/d263cd2b-c4ef-4e10-8876-a2896406a573/OpportunityDetail?opportunityId=144e60eb-8996-4a96-b4b9-09c9bbff12d6&source=LinkedIn",
+      "summary": "",
+      "tags": "Prospect Management, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Senior Director of Prospect Development",
+      "employer": "Miami University",
+      "location": "Oxford, OH",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-08",
+      "dateAdded": "2026-09-09T17:08:57.674Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://miamioh.wd5.myworkdayjobs.com/miamioh-staff/job/Advancement-Services-Building/Senior-Director-of-Prospect-Development_JR104622-1?source=LinkedIn",
+      "summary": "",
+      "tags": "Prospect Development, Advancement Analytics, Leadership, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Senior Associate Director, Prospect Development",
+      "employer": "Florida State University",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-02",
+      "dateAdded": "2026-09-09T17:08:57.674Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=63398&PostingSeq=1&sType=Linkedin",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Program Assistant 3, Prospect Research and Management",
@@ -69,7 +114,7 @@
       "title": "Director, Research & Prospect Management",
       "employer": "Wildlife Conservation Society",
       "location": "New York, NY",
-      "workMode": "Unknown",
+      "workMode": "Remote",
       "salaryRange": "Not listed",
       "postedDate": "2026-09-02",
       "dateAdded": "2026-09-03T17:02:09.395Z",
@@ -77,7 +122,7 @@
       "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
       "applyUrl": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25965&siteid=5168&jobId=922462&src=Linkedin#jobDetails=922462_5168#jobDetails=922462_5168",
       "summary": "",
-      "tags": "Prospect Management, Leadership"
+      "tags": "Prospect Management, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -142,32 +187,32 @@
     {
       "status": "Active",
       "title": "Associate Director, Prospect Intelligence",
-      "employer": "North Carolina State University",
-      "location": "Raleigh, NC, US",
+      "employer": "Preferred",
+      "location": "(hybrid)",
       "workMode": "Hybrid",
-      "salaryRange": "90,000 - 95,000 year",
-      "postedDate": "2026-08-11",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-12",
       "dateAdded": "2026-09-01T17:19:00.482Z",
       "source": "Apra Career Center",
       "sourceUrl": "https://apra.careerwebsite.com/jobs/",
       "applyUrl": "https://apra.careerwebsite.com/job/associate-director-prospect-intelligence/85514308/",
-      "summary": "The Associate Director of Prospect Intelligence leads the research and analytics function within Prospect Development, advancing a sophisticated, datainformed approach to prospect identification, principalgift strategy, and pipeline development. This role mana…",
-      "tags": "Prospect Development, Advancement Analytics, Leadership"
+      "summary": "",
+      "tags": "Leadership"
     },
     {
       "status": "Active",
-      "title": "Director of Philanthropic Strategy & Prospect Management",
-      "employer": "North Carolina State University",
-      "location": "Raleigh, NC",
+      "title": "Assistant Director of Prospect Research and Development (81077)",
+      "employer": "Iona University",
+      "location": "New Rochelle, NY",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-04",
+      "postedDate": "2026-09-05",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179548160&Title=Director%20of%20Philanthropic%20Strategy%20%26%20Prospect%20Management",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179548694&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Development%20%2881077%29",
       "summary": "",
-      "tags": "Prospect Management, Leadership"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -334,7 +379,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 8
+      "found": 11
     },
     {
       "source": "Apra Georgia",
@@ -354,9 +399,8 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": false,
-      "found": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "found": 8
     },
     {
       "source": "CASE Career Central",
