@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T17:08:57.674Z",
-  "count": 24,
+  "generatedAt": "2026-09-10T16:58:56.982Z",
+  "count": 26,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Research Analyst II",
+      "employer": "University of Louisville",
+      "location": "Louisville, KY, US",
+      "workMode": "Remote",
+      "salaryRange": "54,318 - 67,871 year",
+      "postedDate": "2026-09-09",
+      "dateAdded": "2026-09-10T16:58:56.982Z",
+      "source": "Apra Career Center",
+      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
+      "applyUrl": "https://apra.careerwebsite.com/job/prospect-research-analyst-ii/82692668/",
+      "summary": "Minimum Requirements: Bachelor's degree in a related field and two (2) years of relevant experience or an equivalent combination of education and experience. Grade 6 (Salaried) Position Description: The University of Louisville is seeking to hire a Prospect Re…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Philanthropic Stategy & Prospect Management",
+      "employer": "North Carolina State University",
+      "location": "Raleigh, NC, US",
+      "workMode": "Hybrid",
+      "salaryRange": "70,000 - 85,000 year",
+      "postedDate": "2026-09-08",
+      "dateAdded": "2026-09-10T16:58:56.982Z",
+      "source": "Apra Career Center",
+      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
+      "applyUrl": "https://apra.careerwebsite.com/job/director-of-philanthropic-stategy-prospect-management/85885728/",
+      "summary": "The Director of Philanthropic Strategy & Prospect Management serves as the College of Engineering’s strategic advisor on fundraising performance, portfolio optimization, campaign readiness, and prospect strategy. This position partners closely with the Assista…",
+      "tags": "Prospect Management, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Assistant Director of Research and Prospect Management",
@@ -187,32 +217,32 @@
     {
       "status": "Active",
       "title": "Associate Director, Prospect Intelligence",
-      "employer": "Preferred",
-      "location": "(hybrid)",
+      "employer": "North Carolina State University",
+      "location": "Raleigh, NC, US",
       "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-12",
+      "salaryRange": "90,000 - 95,000 year",
+      "postedDate": "2026-08-11",
       "dateAdded": "2026-09-01T17:19:00.482Z",
       "source": "Apra Career Center",
       "sourceUrl": "https://apra.careerwebsite.com/jobs/",
       "applyUrl": "https://apra.careerwebsite.com/job/associate-director-prospect-intelligence/85514308/",
-      "summary": "",
-      "tags": "Leadership"
+      "summary": "The Associate Director of Prospect Intelligence leads the research and analytics function within Prospect Development, advancing a sophisticated, datainformed approach to prospect identification, principalgift strategy, and pipeline development. This role mana…",
+      "tags": "Prospect Development, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
-      "title": "Assistant Director of Prospect Research and Development (81077)",
-      "employer": "Iona University",
-      "location": "New Rochelle, NY",
+      "title": "Prospect Development Analyst",
+      "employer": "Augusta University",
+      "location": "Augusta, GA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-05",
+      "postedDate": "2026-09-09",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179548694&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Development%20%2881077%29",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179551119&Title=Prospect%20Development%20Analyst",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Prospect Development"
     },
     {
       "status": "Active",
@@ -389,7 +419,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 3
+      "found": 2
     },
     {
       "source": "CARA",
@@ -400,7 +430,7 @@
     {
       "source": "Apra Career Center",
       "ok": true,
-      "found": 8
+      "found": 9
     },
     {
       "source": "CASE Career Central",
