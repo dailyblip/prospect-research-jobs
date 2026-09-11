@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T16:58:56.982Z",
+  "generatedAt": "2026-09-11T17:01:08.768Z",
   "count": 26,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Development Advisor (Remote)",
+      "employer": "Hillsdale College",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-08-27",
+      "dateAdded": "2026-09-11T17:01:08.768Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://hillsdale.peopleadmin.com/postings/4789",
+      "summary": "",
+      "tags": "Prospect Development, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Research Analyst II",
@@ -216,21 +231,6 @@
     },
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Intelligence",
-      "employer": "North Carolina State University",
-      "location": "Raleigh, NC, US",
-      "workMode": "Hybrid",
-      "salaryRange": "90,000 - 95,000 year",
-      "postedDate": "2026-08-11",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/associate-director-prospect-intelligence/85514308/",
-      "summary": "The Associate Director of Prospect Intelligence leads the research and analytics function within Prospect Development, advancing a sophisticated, datainformed approach to prospect identification, principalgift strategy, and pipeline development. This role mana…",
-      "tags": "Prospect Development, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Development Analyst",
       "employer": "Augusta University",
       "location": "Augusta, GA",
@@ -238,11 +238,11 @@
       "salaryRange": "Not listed",
       "postedDate": "2026-09-09",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179551119&Title=Prospect%20Development%20Analyst",
       "summary": "",
-      "tags": "Prospect Development"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -306,18 +306,18 @@
     },
     {
       "status": "Active",
-      "title": "Senior Associate, Prospect Development",
+      "title": "Senior Associate, Prospect Development (Remote*)",
       "employer": "Americares",
-      "location": "Remote — eligible U.S. states",
+      "location": "*Remote in certain states",
       "workMode": "Remote",
-      "salaryRange": "$58,695 - $64,500",
+      "salaryRange": "$58,695-$64,500",
       "postedDate": "2026-08-19",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://americares.csod.com/ux/ats/careersite/5/home/requisition/1594?c=americares",
-      "summary": "Senior associate role supporting prospect development for Americares.",
-      "tags": "Prospect Development"
+      "summary": "",
+      "tags": "Prospect Development, Remote"
     },
     {
       "status": "Active",
@@ -399,7 +399,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 11
+      "found": 10
     },
     {
       "source": "Apra Northwest",
@@ -446,7 +446,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
