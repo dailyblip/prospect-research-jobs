@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T17:01:08.768Z",
-  "count": 26,
+  "generatedAt": "2026-09-12T16:17:57.510Z",
+  "count": 25,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Development and Research Associate",
+      "employer": "American Bible Society",
+      "location": "Philadelphia, PA, US",
+      "workMode": "Hybrid",
+      "salaryRange": "56,000 - 67,000 year",
+      "postedDate": "2026-09-10",
+      "dateAdded": "2026-09-12T16:17:57.510Z",
+      "source": "Apra Career Center",
+      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
+      "applyUrl": "https://apra.careerwebsite.com/job/prospect-development-and-research-associate/85917547/",
+      "summary": "American Bible Society is an historic organization and an engaging place to work. We are looking for talented, ambitious, and collaborative people to come alongside us as we share the life changing message of the Bible for everyone – no matter who they are or…",
+      "tags": "Prospect Research, Prospect Development"
+    },
     {
       "status": "Active",
       "title": "Prospect Development Advisor (Remote)",
@@ -281,7 +296,7 @@
       "location": "Boston, MA, United States",
       "workMode": "Hybrid",
       "salaryRange": "Not listed",
-      "postedDate": "2026-08-20",
+      "postedDate": "2026-09-11",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Harvard Careers",
       "sourceUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
@@ -351,36 +366,6 @@
     },
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Intelligence (Hybrid/Raleigh, NC)",
-      "employer": "NC State University",
-      "location": "Hybrid/Raleigh, NC",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-12",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://jobs.ncsu.edu/postings/233349",
-      "summary": "",
-      "tags": "Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Development Coordinator, Prospect Management and Research (Remote)",
-      "employer": "Partners in Health",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-12",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://www.pih.org/employment?p=job%2FoOIDAfwt",
-      "summary": "",
-      "tags": "Prospect Management, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Associate, Donor Relations",
       "employer": "The Heritage Foundation",
       "location": "Washington, DC",
@@ -441,7 +426,7 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "HigherEdJobs — Prospect Development",
