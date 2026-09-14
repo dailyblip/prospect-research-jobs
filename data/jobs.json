@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-12T16:17:57.510Z",
+  "generatedAt": "2026-09-14T18:36:24.156Z",
   "count": 25,
   "rejectedCount": 0,
   "jobs": [
@@ -246,18 +246,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Analyst",
-      "employer": "Augusta University",
-      "location": "Augusta, GA",
+      "title": "Assistant Director of Prospect Research and Management",
+      "employer": "Simmons University",
+      "location": "Boston, MA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-09",
+      "postedDate": "2026-09-14",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179551119&Title=Prospect%20Development%20Analyst",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179555169&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Management",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -426,12 +426,12 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
