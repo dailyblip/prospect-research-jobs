@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T18:36:24.156Z",
+  "generatedAt": "2026-09-15T17:39:48.970Z",
   "count": 25,
   "rejectedCount": 0,
   "jobs": [
@@ -246,18 +246,18 @@
     },
     {
       "status": "Active",
-      "title": "Assistant Director of Prospect Research and Management",
-      "employer": "Simmons University",
-      "location": "Boston, MA",
+      "title": "Prospect Development Specialist, RPD (10008484)",
+      "employer": "Vanderbilt University",
+      "location": "Nashville, TN",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
       "postedDate": "2026-09-14",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179555169&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Management",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179555790&Title=Prospect%20Development%20Specialist%2C%20RPD%20%2810008484%29",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -291,12 +291,12 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Strategy & Research",
+      "title": "Director of Prospect Strategy & Research, Alumni Engagement and Development",
       "employer": "Harvard University",
       "location": "Boston, MA, United States",
       "workMode": "Hybrid",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-11",
+      "postedDate": "2026-09-14",
       "dateAdded": "2026-08-23T23:45:00.000Z",
       "source": "Harvard Careers",
       "sourceUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
@@ -414,8 +414,9 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": true,
-      "found": 9
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CASE Career Central",
