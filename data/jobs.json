@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T17:39:48.970Z",
-  "count": 25,
+  "generatedAt": "2026-09-16T17:37:20.714Z",
+  "count": 27,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Development Consultant",
+      "employer": "The Helen Brown Group",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-15",
+      "dateAdded": "2026-09-16T17:37:20.714Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.helenbrowngroup.com/wp-content/uploads/2026/09/HBG-Consultant-Job-Posting-Fall-2026-Final.pdf",
+      "summary": "",
+      "tags": "Prospect Development, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Development Advisor",
+      "employer": "Hillsdale College",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-15",
+      "dateAdded": "2026-09-16T17:37:20.714Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://hillsdale.peopleadmin.com/postings/4790",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Development and Research Associate",
@@ -246,18 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Specialist, RPD (10008484)",
-      "employer": "Vanderbilt University",
-      "location": "Nashville, TN",
+      "title": "Director, Prospect Intelligence",
+      "employer": "Rhode Island School of Design",
+      "location": "Providence, RI",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-14",
+      "postedDate": "2026-09-15",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179555790&Title=Prospect%20Development%20Specialist%2C%20RPD%20%2810008484%29",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179557629&Title=Director%2C%20Prospect%20Intelligence",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -394,7 +424,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 11
+      "found": 12
     },
     {
       "source": "Apra Georgia",
@@ -404,7 +434,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 2
+      "found": 1
     },
     {
       "source": "CARA",
