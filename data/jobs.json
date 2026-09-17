@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T17:37:20.714Z",
-  "count": 27,
+  "generatedAt": "2026-09-17T17:37:12.257Z",
+  "count": 28,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director, Prospect Research & Management (Remote)",
+      "employer": "International Rescue Commission",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$110,000-$117,000",
+      "postedDate": "2026-09-17",
+      "dateAdded": "2026-09-17T17:37:12.257Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/United-States-Remote/Associate-Director--Prospect-Research---Management_JR00004647?q=prospect",
+      "summary": "",
+      "tags": "Prospect Research, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Development Consultant",
@@ -276,18 +291,18 @@
     },
     {
       "status": "Active",
-      "title": "Director, Prospect Intelligence",
-      "employer": "Rhode Island School of Design",
-      "location": "Providence, RI",
+      "title": "Associate Director, Prospect Management & Analytics",
+      "employer": "Northwestern University",
+      "location": "Evanston, IL",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-15",
+      "postedDate": "2026-09-16",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179557629&Title=Director%2C%20Prospect%20Intelligence",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179558727&Title=Associate%20Director%2C%20Prospect%20Management%20%26%20Analytics",
       "summary": "",
-      "tags": "Leadership"
+      "tags": "Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -414,7 +429,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 10
+      "found": 11
     },
     {
       "source": "Apra Northwest",
