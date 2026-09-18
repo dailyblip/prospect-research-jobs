@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-17T17:37:12.257Z",
-  "count": 28,
+  "generatedAt": "2026-09-18T17:03:48.393Z",
+  "count": 26,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Management Analyst (Remote)",
+      "employer": "University of South Florida",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-17",
+      "dateAdded": "2026-09-18T17:03:48.393Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://fa-ewkd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/USF/job/44390/?mode=location",
+      "summary": "",
+      "tags": "Prospect Management, Remote"
+    },
     {
       "status": "Active",
       "title": "Associate Director, Prospect Research & Management (Remote)",
@@ -261,48 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Development",
-      "employer": "UNC Wilmington",
-      "location": "Wilmington, NC, US",
-      "workMode": "Onsite",
-      "salaryRange": "69,500 - 80,000 year",
-      "postedDate": "2026-08-18",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/director-of-prospect-development/85616396/",
-      "summary": "UNCW’s Division for University Advancement is actively recruiting for a strategic leader who can build upon our philanthropic successes, elevate our prospecting operation, and oversee data compliance and integrity related to prospect development, concurrent wi…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Director, Research & Prospect Management",
-      "employer": "American Museum Of Natural History",
-      "location": "(on-site)",
-      "workMode": "Onsite",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-18",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/director-research-prospect-management/85604309/",
-      "summary": "",
-      "tags": "Prospect Management, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director, Prospect Management & Analytics",
-      "employer": "Northwestern University",
-      "location": "Evanston, IL",
+      "title": "Director of Prospect Research",
+      "employer": "Reed College",
+      "location": "Portland, OR",
       "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-16",
+      "salaryRange": "&",
+      "postedDate": "2026-09-18",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179558727&Title=Associate%20Director%2C%20Prospect%20Management%20%26%20Analytics",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179561779&Title=Director%20of%20Prospect%20Research",
       "summary": "",
-      "tags": "Prospect Management, Advancement Analytics, Leadership"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -396,21 +381,6 @@
     },
     {
       "status": "Active",
-      "title": "Manager, Prospect Research",
-      "employer": "AIPAC",
-      "location": "Washington, DC",
-      "workMode": "Unknown",
-      "salaryRange": "$80,000 - $125,000",
-      "postedDate": "2026-08-18",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "CareerHub Job Board",
-      "sourceUrl": "https://jobs.jpro.org/companies/aipac/jobs/90284642-manager-prospect-research",
-      "applyUrl": "https://recruiting.ultipro.com/AME1071/JobBoard/0ef31e79-3786-dcf1-5756-a5fc7f17ce54/OpportunityDetail?opportunityId=38cebc38-04ce-47ad-a93c-79859fdf110f",
-      "summary": "Manages donor prospect research, pipeline tracking, reporting, and prospect-management systems.",
-      "tags": "Prospect Research, Prospect Management, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Associate, Donor Relations",
       "employer": "The Heritage Foundation",
       "location": "Washington, DC",
@@ -429,7 +399,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 11
+      "found": 12
     },
     {
       "source": "Apra Northwest",
