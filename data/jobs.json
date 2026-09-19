@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T17:03:48.393Z",
-  "count": 26,
+  "generatedAt": "2026-09-19T16:28:25.373Z",
+  "count": 23,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -280,7 +280,7 @@
       "employer": "Reed College",
       "location": "Portland, OR",
       "workMode": "Unknown",
-      "salaryRange": "&",
+      "salaryRange": "Not listed",
       "postedDate": "2026-09-18",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
@@ -333,51 +333,6 @@
       "applyUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
       "summary": "Company Description By working at Harvard University, you join a vibrant community that advances Harvard's world-changing mission in meaningful ways, inspires innovation and collaboration, and builds skills and expertise. We are dedicated to creating a diverse…",
       "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Remote Database Analyst - Philanthropy (Remote)",
-      "employer": "Texas Children's",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-19",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://eohh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/426216/?keyword=Analyst&mode=location",
-      "summary": "",
-      "tags": "Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Associate, Prospect Development (Remote*)",
-      "employer": "Americares",
-      "location": "*Remote in certain states",
-      "workMode": "Remote",
-      "salaryRange": "$58,695-$64,500",
-      "postedDate": "2026-08-19",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://americares.csod.com/ux/ats/careersite/5/home/requisition/1594?c=americares",
-      "summary": "",
-      "tags": "Prospect Development, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Coordinator of Advancement Research (High Point, NC)",
-      "employer": "High Point University",
-      "location": "High Point, NC",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-08-19",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://highpoint.wd503.myworkdayjobs.com/en-US/HighPoint/job/Coordinator-of-Advancement-Research_R0008972",
-      "summary": "",
-      "tags": "Prospect Research"
     },
     {
       "status": "Active",
