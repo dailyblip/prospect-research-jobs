@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T16:47:13.865Z",
+  "generatedAt": "2026-09-21T18:39:57.549Z",
   "count": 22,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director, Prospect Strategy, Management, and Research",
+      "employer": "Teach for America",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-21",
+      "dateAdded": "2026-09-21T18:39:57.549Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://teachforamerica.wd1.myworkdayjobs.com/TFA_Careers/job/RemoteHome-Office/Director--Prospect-Strategy--Management--and-Research_REQ-202609-3648",
+      "summary": "",
+      "tags": "Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Management Analyst (Remote)",
@@ -318,21 +333,6 @@
       "applyUrl": "https://careers.harvard.edu/job/director-of-prospect-strategy-and-research-in-boston-ma-united-states-jid-1050",
       "summary": "Company Description By working at Harvard University, you join a vibrant community that advances Harvard's world-changing mission in meaningful ways, inspires innovation and collaboration, and builds skills and expertise. We are dedicated to creating a diverse…",
       "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Associate, Donor Relations",
-      "employer": "The Heritage Foundation",
-      "location": "Washington, DC",
-      "workMode": "Unknown",
-      "salaryRange": "$60,000 - $70,000",
-      "postedDate": "",
-      "dateAdded": "2026-08-23T23:45:00.000Z",
-      "source": "The Heritage Foundation Careers",
-      "sourceUrl": "https://heritage.applytojob.com/apply/gKd5eyMamw/Prospect-Research-Associate-Donor-Relations",
-      "applyUrl": "https://heritage.applytojob.com/apply/gKd5eyMamw/Prospect-Research-Associate-Donor-Relations",
-      "summary": "Coordinates prospect research, donor qualification, pipeline maintenance, constituent data, profiles, and reporting.",
-      "tags": "Prospect Research, Donor Relations, Pipeline Management"
     }
   ],
   "sources": [
