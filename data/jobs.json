@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T18:39:57.549Z",
+  "generatedAt": "2026-09-22T17:37:45.023Z",
   "count": 22,
   "rejectedCount": 0,
   "jobs": [
@@ -291,18 +291,18 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Research",
-      "employer": "Reed College",
-      "location": "Portland, OR",
+      "title": "Prospect Research Analyst",
+      "employer": "Cornell University",
+      "location": "Ithaca, NY",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-18",
+      "postedDate": "2026-09-22",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179561779&Title=Director%20of%20Prospect%20Research",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179563743&Title=Prospect%20Research%20Analyst",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Prospect Research"
     },
     {
       "status": "Active",
@@ -369,9 +369,8 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": false,
-      "found": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "found": 0
     },
     {
       "source": "CASE Career Central",
