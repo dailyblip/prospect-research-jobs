@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T17:51:12.723Z",
+  "generatedAt": "2026-09-25T17:56:30.780Z",
   "count": 20,
   "rejectedCount": 0,
   "jobs": [
@@ -276,18 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Specialist, DPAE",
-      "employer": "Kent State University",
-      "location": "Kent, OH",
+      "title": "Assistant Director of Prospect Research and Management",
+      "employer": "University of Redlands",
+      "location": "Redlands, CA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-23",
+      "postedDate": "2026-09-25",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179565791&Title=Prospect%20Development%20Specialist%2C%20DPAE",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179568566&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Management",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -309,7 +309,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 12
+      "found": 11
     },
     {
       "source": "Apra Northwest",
@@ -329,7 +329,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 1
+      "found": 2
     },
     {
       "source": "CARA",
