@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T17:43:28.321Z",
-  "count": 19,
+  "generatedAt": "2026-09-29T18:37:18.818Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Researcher (Remote",
+      "employer": "Part Time)",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-29",
+      "dateAdded": "2026-09-29T18:37:18.818Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://cityyear.wd5.myworkdayjobs.com/en-US/CityYear/job/Prospect-Researcher_R8336",
+      "summary": "",
+      "tags": "Prospect Research, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Director, Prospect Strategy, Management, and Research",
@@ -261,18 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Assistant Director of Prospect Research and Management",
-      "employer": "University of Redlands",
-      "location": "Redlands, CA",
+      "title": "Senior Associate Director, Prospect Management and Portfolio Strategy",
+      "employer": "Columbia University",
+      "location": "New York, NY",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-25",
+      "postedDate": "2026-09-29",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179568566&Title=Assistant%20Director%20of%20Prospect%20Research%20and%20Management",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179571079&Title=Senior%20Associate%20Director%2C%20Prospect%20Management%20and%20Portfolio%20Strategy",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Prospect Management, Leadership"
     },
     {
       "status": "Active",
@@ -294,7 +309,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 11
+      "found": 12
     },
     {
       "source": "Apra Northwest",
@@ -304,7 +319,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 12
+      "found": 11
     },
     {
       "source": "Apra Georgia",
