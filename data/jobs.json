@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T18:37:18.818Z",
-  "count": 20,
+  "generatedAt": "2026-09-30T18:26:16.862Z",
+  "count": 22,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Research Analyst II (Remote)",
+      "employer": "Compassion International",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$69,600.00 - $81,780.00",
+      "postedDate": "2026-09-30",
+      "dateAdded": "2026-09-30T18:26:16.862Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://compassion.wd5.myworkdayjobs.com/en-US/CompassionCareers/job/Prospect-Research-Analyst-II_R8520",
+      "summary": "",
+      "tags": "Prospect Research, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Management Strategist (Remote)",
+      "employer": "The Nature Conservancy",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$78,800 - $114,800",
+      "postedDate": "2026-09-30",
+      "dateAdded": "2026-09-30T18:26:16.862Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://careers.tnc.org/us/en/job/JR103997/Prospect-Management-Strategist",
+      "summary": "",
+      "tags": "Prospect Management, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Researcher (Remote",
@@ -141,6 +171,21 @@
     },
     {
       "status": "Active",
+      "title": "Prospect Research Analyst",
+      "employer": "Florida State University",
+      "location": "Remote",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-09-29",
+      "dateAdded": "2026-09-09T17:08:57.674Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U",
+      "summary": "",
+      "tags": "Prospect Research, Leadership, Remote"
+    },
+    {
+      "status": "Active",
       "title": "Assistant Director of Research and Prospect Management",
       "employer": "School of the Art Institute of Chicago",
       "location": "Chicago, IL",
@@ -168,21 +213,6 @@
       "applyUrl": "https://miamioh.wd5.myworkdayjobs.com/miamioh-staff/job/Advancement-Services-Building/Senior-Director-of-Prospect-Development_JR104622-1?source=LinkedIn",
       "summary": "",
       "tags": "Prospect Development, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Associate Director, Prospect Development",
-      "employer": "Florida State University",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-02",
-      "dateAdded": "2026-09-09T17:08:57.674Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=63398&PostingSeq=1&sType=Linkedin",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -283,8 +313,8 @@
       "salaryRange": "Not listed",
       "postedDate": "2026-09-29",
       "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179571079&Title=Senior%20Associate%20Director%2C%20Prospect%20Management%20and%20Portfolio%20Strategy",
       "summary": "",
       "tags": "Prospect Management, Leadership"
@@ -309,7 +339,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 12
+      "found": 15
     },
     {
       "source": "Apra Northwest",
@@ -319,7 +349,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 11
+      "found": 12
     },
     {
       "source": "Apra Georgia",
@@ -356,7 +386,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
