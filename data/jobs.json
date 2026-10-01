@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T18:26:16.862Z",
+  "generatedAt": "2026-10-01T18:51:42.191Z",
   "count": 22,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "One-Year Prospect Development Analyst (Remote)",
+      "employer": "Earthjustice",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$75,300 - $83,700",
+      "postedDate": "2026-09-30",
+      "dateAdded": "2026-10-01T18:51:42.191Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://earthjustice.org/job/one-year-prospect-development-analyst",
+      "summary": "",
+      "tags": "Prospect Development, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Research Analyst II (Remote)",
@@ -291,21 +306,6 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Research (New Adjusted Salary)",
-      "employer": "Tulane University",
-      "location": "New Orleans, LA, US",
-      "workMode": "Onsite",
-      "salaryRange": "90,000 - 100,000 year",
-      "postedDate": "2026-08-31",
-      "dateAdded": "2026-09-01T17:19:00.482Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/director-of-prospect-research-new-adjusted-salary/80804453/",
-      "summary": "Summary The Director of Prospect Research will be responsible for managing research deliverables and projects, directing prospect identification efforts, delegating research requests to ensure timely responses, coordinating training, ensuring compliance with e…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Senior Associate Director, Prospect Management and Portfolio Strategy",
       "employer": "Columbia University",
       "location": "New York, NY",
@@ -369,8 +369,9 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": true,
-      "found": 0
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CASE Career Central",
@@ -381,7 +382,7 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "HigherEdJobs — Prospect Development",
