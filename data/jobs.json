@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T18:51:42.191Z",
-  "count": 22,
+  "generatedAt": "2026-10-02T18:23:38.258Z",
+  "count": 23,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Development and Research Associate (*Remote)",
+      "employer": "American Bible Society",
+      "location": "Not listed",
+      "workMode": "Hybrid",
+      "salaryRange": "$56,000.00 To $67,000.00",
+      "postedDate": "2026-10-02",
+      "dateAdded": "2026-10-02T18:23:38.258Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=acfa6cb1-1237-46db-95ed-bcff0e1a7fcd&jobId=544703&lang=en_US",
+      "summary": "",
+      "tags": "Prospect Development, Remote"
+    },
     {
       "status": "Active",
       "title": "One-Year Prospect Development Analyst (Remote)",
@@ -21,6 +36,21 @@
     },
     {
       "status": "Active",
+      "title": "Prospect Management Strategist",
+      "employer": "The Nature Conversancy",
+      "location": "Arlington, Virginia, United States of America",
+      "workMode": "Remote",
+      "salaryRange": "$78,800 - $114,800",
+      "postedDate": "2026-10-01",
+      "dateAdded": "2026-09-30T18:26:16.862Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://careers.tnc.org/us/en/job/JR103997/Prospect-Management-Strategist",
+      "summary": "What We Can Achieve Together: The Prospect Management Strategist works to implement strategies to support prospect identification, segmentation, and assignment recommendations and other related services for the Conservancy’s fundraising teams. The Prospect Man…",
+      "tags": "Prospect Management, Advancement Analytics, Leadership"
+    },
+    {
+      "status": "Active",
       "title": "Prospect Research Analyst II (Remote)",
       "employer": "Compassion International",
       "location": "Remote",
@@ -33,21 +63,6 @@
       "applyUrl": "https://compassion.wd5.myworkdayjobs.com/en-US/CompassionCareers/job/Prospect-Research-Analyst-II_R8520",
       "summary": "",
       "tags": "Prospect Research, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Management Strategist (Remote)",
-      "employer": "The Nature Conservancy",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$78,800 - $114,800",
-      "postedDate": "2026-09-30",
-      "dateAdded": "2026-09-30T18:26:16.862Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://careers.tnc.org/us/en/job/JR103997/Prospect-Management-Strategist",
-      "summary": "",
-      "tags": "Prospect Management, Remote"
     },
     {
       "status": "Active",
@@ -306,18 +321,18 @@
     },
     {
       "status": "Active",
-      "title": "Senior Associate Director, Prospect Management and Portfolio Strategy",
-      "employer": "Columbia University",
-      "location": "New York, NY",
+      "title": "Senior Prospect Analyst",
+      "employer": "George Washington University",
+      "location": "Washington, DC",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-09-29",
+      "postedDate": "2026-10-02",
       "dateAdded": "2026-08-25T14:02:04.141Z",
       "source": "HigherEdJobs — Prospect Research",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179571079&Title=Senior%20Associate%20Director%2C%20Prospect%20Management%20and%20Portfolio%20Strategy",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179575927&Title=Senior%20Prospect%20Analyst",
       "summary": "",
-      "tags": "Prospect Management, Leadership"
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -339,7 +354,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 15
+      "found": 16
     },
     {
       "source": "Apra Northwest",
@@ -382,7 +397,7 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "HigherEdJobs — Prospect Development",
