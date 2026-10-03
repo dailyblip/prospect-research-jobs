@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T18:23:38.258Z",
-  "count": 23,
+  "generatedAt": "2026-10-03T17:14:45.610Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -261,21 +261,6 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Research",
-      "employer": "Georgia Institute of Technology",
-      "location": "(on-site)",
-      "workMode": "Onsite",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-02",
-      "dateAdded": "2026-09-04T16:51:29.446Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/director-of-prospect-research/85809542/",
-      "summary": "",
-      "tags": "Prospect Research, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Director, Principal Gift Prospect Intelligence and Strategy",
       "employer": "Temple University",
       "location": "Philadelphia, Pennsylvania, United States",
@@ -303,36 +288,6 @@
       "applyUrl": "https://jobs.ncsu.edu/postings/234603",
       "summary": "",
       "tags": "Prospect Management, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Director, Research & Prospect Management",
-      "employer": "Wildlife Conservation Society",
-      "location": "New York, NY",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-02",
-      "dateAdded": "2026-09-03T17:02:09.395Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25965&siteid=5168&jobId=922462&src=Linkedin#jobDetails=922462_5168#jobDetails=922462_5168",
-      "summary": "",
-      "tags": "Prospect Management, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Prospect Analyst",
-      "employer": "George Washington University",
-      "location": "Washington, DC",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-10-02",
-      "dateAdded": "2026-08-25T14:02:04.141Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179575927&Title=Senior%20Prospect%20Analyst",
-      "summary": "",
-      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -373,8 +328,9 @@
     },
     {
       "source": "Apra Canada",
-      "ok": true,
-      "found": 2
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CARA",
@@ -397,7 +353,7 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "HigherEdJobs — Prospect Development",
