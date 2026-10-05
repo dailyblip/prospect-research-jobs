@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T17:33:41.912Z",
-  "count": 18,
+  "generatedAt": "2026-10-05T21:10:56.840Z",
+  "count": 17,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -246,21 +246,6 @@
     },
     {
       "status": "Active",
-      "title": "Program Assistant 3, Prospect Research and Management",
-      "employer": "Northwestern University",
-      "location": "Evanston, IL, US",
-      "workMode": "Hybrid",
-      "salaryRange": "23 - 24 hour",
-      "postedDate": "2026-09-04",
-      "dateAdded": "2026-09-05T16:03:04.007Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/program-assistant-3-prospect-research-and-management/85842224/",
-      "summary": "Program Assistant 3, Prospect Research and Management Job ID: 54376 Location: Evanston, Illinois Department: Alumni Relations & Development Salary/Grade: NEX/11 Job Summary: The Prospect Research and Management (PRM) team works with frontline fundraisers to bu…",
-      "tags": "Prospect Research, Prospect Development, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Director of Prospect Strategy & Research, Alumni Engagement and Development",
       "employer": "Harvard University",
       "location": "Boston, MA, United States",
@@ -279,7 +264,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 16
+      "found": 14
     },
     {
       "source": "Apra Northwest",
