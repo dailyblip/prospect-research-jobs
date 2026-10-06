@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T21:10:56.840Z",
-  "count": 17,
+  "generatedAt": "2026-10-06T18:53:50.628Z",
+  "count": 18,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director, Prospect Development (Remote)",
+      "employer": "University of California, San Francisco",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$145,000 - $160,000",
+      "postedDate": "2026-10-06",
+      "dateAdded": "2026-10-06T18:53:50.628Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9379",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Development Analyst (Remote)",
+      "employer": "University of California, San Francisco",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$98,000 – $107,000",
+      "postedDate": "2026-10-06",
+      "dateAdded": "2026-10-06T18:53:50.628Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9691",
+      "summary": "",
+      "tags": "Prospect Development, Remote"
+    },
     {
       "status": "Active",
       "title": "Prospect Development and Research Associate (*Remote)",
@@ -33,21 +63,6 @@
       "applyUrl": "https://earthjustice.org/job/one-year-prospect-development-analyst",
       "summary": "",
       "tags": "Prospect Development, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Management Strategist",
-      "employer": "The Nature Conversancy",
-      "location": "Arlington, Virginia, United States of America",
-      "workMode": "Remote",
-      "salaryRange": "$78,800 - $114,800",
-      "postedDate": "2026-10-01",
-      "dateAdded": "2026-09-30T18:26:16.862Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://careers.tnc.org/us/en/job/JR103997/Prospect-Management-Strategist",
-      "summary": "What We Can Achieve Together: The Prospect Management Strategist works to implement strategies to support prospect identification, segmentation, and assignment recommendations and other related services for the Conservancy’s fundraising teams. The Prospect Man…",
-      "tags": "Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -264,7 +279,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 14
+      "found": 15
     },
     {
       "source": "Apra Northwest",
