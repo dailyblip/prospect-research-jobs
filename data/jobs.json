@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T18:53:50.628Z",
+  "generatedAt": "2026-10-07T19:19:25.694Z",
   "count": 18,
   "rejectedCount": 0,
   "jobs": [
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Development (Remote)",
+      "title": "Associate Director, Prospect Development (*Remote)",
       "employer": "University of California, San Francisco",
-      "location": "Remote",
-      "workMode": "Remote",
+      "location": "Not listed",
+      "workMode": "Hybrid",
       "salaryRange": "$145,000 - $160,000",
       "postedDate": "2026-10-06",
       "dateAdded": "2026-10-06T18:53:50.628Z",
@@ -21,10 +21,10 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Analyst (Remote)",
+      "title": "Prospect Development Analyst (*Remote)",
       "employer": "University of California, San Francisco",
-      "location": "Remote",
-      "workMode": "Remote",
+      "location": "Not listed",
+      "workMode": "Hybrid",
       "salaryRange": "$98,000 – $107,000",
       "postedDate": "2026-10-06",
       "dateAdded": "2026-10-06T18:53:50.628Z",
@@ -77,7 +77,7 @@
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://compassion.wd5.myworkdayjobs.com/en-US/CompassionCareers/job/Prospect-Research-Analyst-II_R8520",
       "summary": "",
-      "tags": "Prospect Research, Remote"
+      "tags": "Prospect Research, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -279,7 +279,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 15
+      "found": 12
     },
     {
       "source": "Apra Northwest",
