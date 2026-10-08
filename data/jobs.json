@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T19:19:25.694Z",
-  "count": 18,
+  "generatedAt": "2026-10-08T19:15:56.343Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Data and Prospect Management Senior Specialist",
+      "employer": "Mitchell Hamline School of Law",
+      "location": "St. Paul, MN",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-08",
+      "dateAdded": "2026-10-08T19:15:56.343Z",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179582464&Title=Data%20and%20Prospect%20Management%20Senior%20Specialist",
+      "summary": "",
+      "tags": "Prospect Management, Leadership"
+    },
     {
       "status": "Active",
       "title": "Associate Director, Prospect Development (*Remote)",
@@ -322,12 +337,12 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
