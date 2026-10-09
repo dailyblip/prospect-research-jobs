@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T19:15:56.343Z",
-  "count": 19,
+  "generatedAt": "2026-10-09T18:47:53.976Z",
+  "count": 17,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Senior Associate Director, Prospect Management",
+      "employer": "Washington University in St. Louis",
+      "location": "St. Louis, MO",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-08",
+      "dateAdded": "2026-10-09T18:47:53.976Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://wustl.wd1.myworkdayjobs.com/en-US/External/job/Washington-University-West-Campus-Clayton-Missouri/Senior-Associate-Director--Prospect-Management---University-Advancement_JR95908",
+      "summary": "",
+      "tags": "Prospect Management, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Data and Prospect Management Senior Specialist",
@@ -13,8 +28,8 @@
       "salaryRange": "Not listed",
       "postedDate": "2026-10-08",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179582464&Title=Data%20and%20Prospect%20Management%20Senior%20Specialist",
       "summary": "",
       "tags": "Prospect Management, Leadership"
@@ -77,7 +92,7 @@
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://earthjustice.org/job/one-year-prospect-development-analyst",
       "summary": "",
-      "tags": "Prospect Development, Remote"
+      "tags": "Prospect Development, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -216,21 +231,6 @@
     },
     {
       "status": "Active",
-      "title": "Director of Philanthropic Stategy & Prospect Management",
-      "employer": "North Carolina State University",
-      "location": "Raleigh, NC, US",
-      "workMode": "Hybrid",
-      "salaryRange": "70,000 - 85,000 year",
-      "postedDate": "2026-09-08",
-      "dateAdded": "2026-09-10T16:58:56.982Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/director-of-philanthropic-stategy-prospect-management/85885728/",
-      "summary": "The Director of Philanthropic Strategy & Prospect Management serves as the College of Engineering’s strategic advisor on fundraising performance, portfolio optimization, campaign readiness, and prospect strategy. This position partners closely with the Assista…",
-      "tags": "Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Analyst",
       "employer": "Florida State University",
       "location": "Remote",
@@ -243,36 +243,6 @@
       "applyUrl": "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U",
       "summary": "",
       "tags": "Prospect Research, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Assistant Director of Research and Prospect Management",
-      "employer": "School of the Art Institute of Chicago",
-      "location": "Chicago, IL",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-08",
-      "dateAdded": "2026-09-09T17:08:57.674Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://recruiting2.ultipro.com/ART1010AICH/JobBoard/d263cd2b-c4ef-4e10-8876-a2896406a573/OpportunityDetail?opportunityId=144e60eb-8996-4a96-b4b9-09c9bbff12d6&source=LinkedIn",
-      "summary": "",
-      "tags": "Prospect Management, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Director of Prospect Development",
-      "employer": "Miami University",
-      "location": "Oxford, OH",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-08",
-      "dateAdded": "2026-09-09T17:08:57.674Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://miamioh.wd5.myworkdayjobs.com/miamioh-staff/job/Advancement-Services-Building/Senior-Director-of-Prospect-Development_JR104622-1?source=LinkedIn",
-      "summary": "",
-      "tags": "Prospect Development, Advancement Analytics, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -294,7 +264,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 12
+      "found": 11
     },
     {
       "source": "Apra Northwest",
@@ -304,7 +274,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 12
+      "found": 8
     },
     {
       "source": "Apra Georgia",
@@ -342,7 +312,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
