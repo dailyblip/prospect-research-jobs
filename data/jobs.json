@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T18:47:53.976Z",
-  "count": 17,
+  "generatedAt": "2026-10-10T17:50:27.136Z",
+  "count": 16,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -21,18 +21,18 @@
     },
     {
       "status": "Active",
-      "title": "Data and Prospect Management Senior Specialist",
-      "employer": "Mitchell Hamline School of Law",
-      "location": "St. Paul, MN",
+      "title": "Senior Prospect Analyst, Philanthropic Due Diligence",
+      "employer": "George Washington University",
+      "location": "Washington, DC",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-08",
+      "postedDate": "2026-10-10",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179582464&Title=Data%20and%20Prospect%20Management%20Senior%20Specialist",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179584738&Title=Senior%20Prospect%20Analyst%2C%20Philanthropic%20Due%20Diligence",
       "summary": "",
-      "tags": "Prospect Management, Leadership"
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -216,21 +216,6 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Research Analyst II",
-      "employer": "University of Louisville",
-      "location": "Louisville, KY, US",
-      "workMode": "Remote",
-      "salaryRange": "54,318 - 67,871 year",
-      "postedDate": "2026-09-09",
-      "dateAdded": "2026-09-10T16:58:56.982Z",
-      "source": "Apra Career Center",
-      "sourceUrl": "https://apra.careerwebsite.com/jobs/",
-      "applyUrl": "https://apra.careerwebsite.com/job/prospect-research-analyst-ii/82692668/",
-      "summary": "Minimum Requirements: Bachelor's degree in a related field and two (2) years of relevant experience or an equivalent combination of education and experience. Grade 6 (Salaried) Position Description: The University of Louisville is seeking to hire a Prospect Re…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Analyst",
       "employer": "Florida State University",
       "location": "Remote",
@@ -312,7 +297,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
