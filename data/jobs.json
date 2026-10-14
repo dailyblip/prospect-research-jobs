@@ -1,9 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T18:03:16.614Z",
-  "count": 15,
+  "generatedAt": "2026-10-14T17:59:38.358Z",
+  "count": 18,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director of Prospect Development",
+      "employer": "Washington National Cathedral",
+      "location": "Washington, DC, US",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-14",
+      "dateAdded": "2026-10-14T17:59:38.358Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://recruiting.paylocity.com/recruiting/jobs/Details/4577253/Washington-National-Cathedral/Associate-Director-of-Prospect-Development",
+      "summary": "Description The Associate Director of Prospect Development reports to the Senior Director of Development Operations and provides strategic leadership for prospect management at Washington National Cathedral (WNC). The position oversees prospect research, portf…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Community Philanthropy Manager - Prospect Research & Management",
+      "employer": "Scion Staffing",
+      "location": "Portland, OR, US",
+      "workMode": "Hybrid",
+      "salaryRange": "$82,590 - $93,208",
+      "postedDate": "2026-10-02",
+      "dateAdded": "2026-10-14T17:59:38.358Z",
+      "source": "Apra Northwest",
+      "sourceUrl": "https://www.apra-nw.org/Jobs?emulatemode=1",
+      "applyUrl": "https://scionstaffing.com/job/15680/?jobTitle=community-philanthropy-manager-prospect-research-management-portland-or",
+      "summary": "Scion Nonprofit Staffing has been engaged to conduct an immediate search for a Community Philanthropy Manager – Prospect Research & Management on behalf of Oregon Food Bank (OFB) . This is a full-time, exempt, hybrid opportunity based in Oregon or Southwest Wa…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Prospect Research",
+      "employer": "Reed College",
+      "location": "Portland, OR, US",
+      "workMode": "Onsite",
+      "salaryRange": "$82,000 - $90,000 year",
+      "postedDate": "2026-09-17",
+      "dateAdded": "2026-10-14T17:59:38.358Z",
+      "source": "Apra Northwest",
+      "sourceUrl": "https://www.apra-nw.org/Jobs?emulatemode=1",
+      "applyUrl": "https://reed-college.breezy.hr/p/d1977227c1fa-director-of-prospect-research",
+      "summary": "The Director of Prospect Research provides strategic leadership for prospect development, research, portfolio management, and fundraising analytics. This position partners closely with Advancement leadership and frontline fundraisers to expand the prospective…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Senior Associate Director, Prospect Management",
@@ -234,17 +279,17 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 11
+      "found": 9
     },
     {
       "source": "Apra Northwest",
       "ok": true,
-      "found": 3
+      "found": 5
     },
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 8
+      "found": 9
     },
     {
       "source": "Apra Georgia",
@@ -277,12 +322,12 @@
     {
       "source": "HigherEdJobs — Prospect Research",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
