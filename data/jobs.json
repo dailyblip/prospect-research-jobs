@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T17:45:40.582Z",
-  "count": 17,
+  "generatedAt": "2026-10-16T17:22:46.580Z",
+  "count": 16,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Management Analyst I (Durham, NC)",
+      "employer": "Duke University",
+      "location": "Durham, NC",
+      "workMode": "Unknown",
+      "salaryRange": "$61,026 to $88,434",
+      "postedDate": "2026-10-15",
+      "dateAdded": "2026-10-16T17:22:46.580Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://careers.duke.edu/job/Durham-Prospect-Management-Analyst-I-NC-27710/1440197100/",
+      "summary": "",
+      "tags": "Prospect Management"
+    },
     {
       "status": "Active",
       "title": "Associate Director of Prospect Development",
@@ -66,18 +81,18 @@
     },
     {
       "status": "Active",
-      "title": "Assistant Director of Prospect Research",
-      "employer": "Florida State University",
-      "location": "Tallahassee, FL",
+      "title": "Director of Prospect Development",
+      "employer": "Eastern Michigan University",
+      "location": "Ypsilanti, MI, US",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-15",
+      "postedDate": "2026-10-16",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179588951&Title=Assistant%20Director%20of%20Prospect%20Research",
-      "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179589946&Title=Director%20of%20Prospect%20Development",
+      "summary": "Title: DIRECTOR OF PROSPECT DEVELOPMENT Employee Classification: AP - Administrative Professional Pay Grade: AP 06 Division: Advancement Subdivision: VP Advancement Department: EMU Foundation and Advancement Campus Location: Main Campus General Summary The Dir…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
     },
     {
       "status": "Active",
@@ -216,36 +231,6 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Consultant",
-      "employer": "The Helen Brown Group",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-15",
-      "dateAdded": "2026-09-16T17:37:20.714Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://www.helenbrowngroup.com/wp-content/uploads/2026/09/HBG-Consultant-Job-Posting-Fall-2026-Final.pdf",
-      "summary": "",
-      "tags": "Prospect Development, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Development Advisor",
-      "employer": "Hillsdale College",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-15",
-      "dateAdded": "2026-09-16T17:37:20.714Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://hillsdale.peopleadmin.com/postings/4790",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Analyst",
       "employer": "Florida State University",
       "location": "Remote",
@@ -264,7 +249,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 9
+      "found": 10
     },
     {
       "source": "Apra Northwest",
