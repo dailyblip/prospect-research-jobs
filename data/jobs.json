@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T16:22:57.036Z",
-  "count": 17,
+  "generatedAt": "2026-10-18T16:30:29.022Z",
+  "count": 14,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -66,21 +66,6 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Research",
-      "employer": "Reed College",
-      "location": "Portland, OR, US",
-      "workMode": "Onsite",
-      "salaryRange": "$82,000 - $90,000 year",
-      "postedDate": "2026-09-17",
-      "dateAdded": "2026-10-14T17:59:38.358Z",
-      "source": "Apra Northwest",
-      "sourceUrl": "https://www.apra-nw.org/Jobs?emulatemode=1",
-      "applyUrl": "https://reed-college.breezy.hr/p/d1977227c1fa-director-of-prospect-research",
-      "summary": "The Director of Prospect Research provides strategic leadership for prospect development, research, portfolio management, and fundraising analytics. This position partners closely with Advancement leadership and frontline fundraisers to expand the prospective…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Senior Associate Director, Prospect Management",
       "employer": "Washington University in St. Louis",
       "location": "St. Louis, MO",
@@ -103,8 +88,8 @@
       "salaryRange": "Not listed",
       "postedDate": "2026-10-16",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179589946&Title=Director%20of%20Prospect%20Development",
       "summary": "Title: DIRECTOR OF PROSPECT DEVELOPMENT Employee Classification: AP - Administrative Professional Pay Grade: AP 06 Division: Advancement Subdivision: VP Advancement Department: EMU Foundation and Advancement Campus Location: Main Campus General Summary The Dir…",
       "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
@@ -216,36 +201,6 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Management Analyst (Remote)",
-      "employer": "University of South Florida",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-17",
-      "dateAdded": "2026-09-18T17:03:48.393Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://fa-ewkd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/USF/job/44390/?mode=location",
-      "summary": "",
-      "tags": "Prospect Management, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director, Prospect Research & Management (Remote)",
-      "employer": "International Rescue Commission",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$110,000-$117,000",
-      "postedDate": "2026-09-17",
-      "dateAdded": "2026-09-17T17:37:12.257Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/United-States-Remote/Associate-Director--Prospect-Research---Management_JR00004647?q=prospect",
-      "summary": "",
-      "tags": "Prospect Research, Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Analyst",
       "employer": "Florida State University",
       "location": "Remote",
@@ -312,7 +267,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
