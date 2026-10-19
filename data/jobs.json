@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T16:30:29.022Z",
+  "generatedAt": "2026-10-19T19:18:41.834Z",
   "count": 14,
   "rejectedCount": 0,
   "jobs": [
@@ -81,18 +81,18 @@
     },
     {
       "status": "Active",
-      "title": "Director of Prospect Development",
-      "employer": "Eastern Michigan University",
-      "location": "Ypsilanti, MI, US",
+      "title": "Senior Associate Director of Prospect Development",
+      "employer": "Health Enterprise",
+      "location": "Philadelphia, PA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-16",
+      "postedDate": "2026-10-19",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179589946&Title=Director%20of%20Prospect%20Development",
-      "summary": "Title: DIRECTOR OF PROSPECT DEVELOPMENT Employee Classification: AP - Administrative Professional Pay Grade: AP 06 Division: Advancement Subdivision: VP Advancement Department: EMU Foundation and Advancement Campus Location: Main Campus General Summary The Dir…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179592084&Title=Senior%20Associate%20Director%20of%20Prospect%20Development%20%2D%20Health%20Enterprise",
+      "summary": "",
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -267,7 +267,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
