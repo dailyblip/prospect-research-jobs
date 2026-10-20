@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T19:18:41.834Z",
-  "count": 14,
+  "generatedAt": "2026-10-20T17:57:36.010Z",
+  "count": 15,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "DIRECTOR OF PROSPECT DEVELOPMENT",
+      "employer": "Eastern Michigan University Foundation",
+      "location": "Ypsilanti, Michigan, US",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-15",
+      "dateAdded": "2026-10-20T17:57:36.010Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://careers.emich.edu/jobs/director-of-prospect-development-ypsilanti-michigan-united-states",
+      "summary": "Title: DIRECTOR OF PROSPECT DEVELOPMENT Employee Classification: AP - Administrative Professional Pay Grade: AP 06 Division: Advancement Subdivision: VP Advancement Department: EMU Foundation and Advancement Campus Location: Main Campus General Summary The Dir…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Prospect Research Coordinator (Temporary)",
@@ -69,7 +84,7 @@
       "title": "Senior Associate Director, Prospect Management",
       "employer": "Washington University in St. Louis",
       "location": "St. Louis, MO",
-      "workMode": "Hybrid",
+      "workMode": "Unknown",
       "salaryRange": "Not listed",
       "postedDate": "2026-10-08",
       "dateAdded": "2026-10-09T18:47:53.976Z",
@@ -77,7 +92,7 @@
       "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
       "applyUrl": "https://wustl.wd1.myworkdayjobs.com/en-US/External/job/Washington-University-West-Campus-Clayton-Missouri/Senior-Associate-Director--Prospect-Management---University-Advancement_JR95908",
       "summary": "",
-      "tags": "Prospect Management, Leadership, Remote"
+      "tags": "Prospect Management, Leadership"
     },
     {
       "status": "Active",
@@ -229,7 +244,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 9
+      "found": 8
     },
     {
       "source": "Apra Georgia",
