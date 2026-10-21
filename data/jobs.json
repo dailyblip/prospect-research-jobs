@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T17:57:36.010Z",
+  "generatedAt": "2026-10-21T18:01:01.223Z",
   "count": 15,
   "rejectedCount": 0,
   "jobs": [
@@ -96,18 +96,18 @@
     },
     {
       "status": "Active",
-      "title": "Senior Associate Director of Prospect Development",
-      "employer": "Health Enterprise",
-      "location": "Philadelphia, PA",
+      "title": "Senior Director, Prospect Strategy and Research",
+      "employer": "University of North Texas System",
+      "location": "Denton, TX",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-19",
+      "postedDate": "2026-10-21",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179592084&Title=Senior%20Associate%20Director%20of%20Prospect%20Development%20%2D%20Health%20Enterprise",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179593806&Title=Senior%20Director%2C%20Prospect%20Strategy%20and%20Research",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Leadership"
     },
     {
       "status": "Active",
@@ -234,7 +234,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 10
+      "found": 9
     },
     {
       "source": "Apra Northwest",
