@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T18:01:01.223Z",
-  "count": 15,
+  "generatedAt": "2026-10-22T17:57:41.314Z",
+  "count": 16,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Philanthropy & Prospect Development Coordinator (Remote)",
+      "employer": "Kesem",
+      "location": "Remote",
+      "workMode": "Hybrid",
+      "salaryRange": "$58,000-$63,000",
+      "postedDate": "2026-10-22",
+      "dateAdded": "2026-10-22T17:57:41.314Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://www.linkedin.com/jobs/view/philanthropy-prospect-development-coordinator-at-kesem-4479317506/",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Prospect Development Project Manager",
+      "employer": "University of Minnesota Foundation",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-21",
+      "dateAdded": "2026-10-22T17:57:41.314Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://hr.myu.umn.edu/jobs/ext/376705",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "DIRECTOR OF PROSPECT DEVELOPMENT",
@@ -96,18 +126,18 @@
     },
     {
       "status": "Active",
-      "title": "Senior Director, Prospect Strategy and Research",
-      "employer": "University of North Texas System",
-      "location": "Denton, TX",
+      "title": "Associate Director, Prospect Development",
+      "employer": "University of California San Francisco (UCSF)",
+      "location": "San Francisco, CA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
       "postedDate": "2026-10-21",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179593806&Title=Senior%20Director%2C%20Prospect%20Strategy%20and%20Research",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
       "summary": "",
-      "tags": "Leadership"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -201,21 +231,6 @@
     },
     {
       "status": "Active",
-      "title": "Director, Prospect Strategy, Management, and Research",
-      "employer": "Teach for America",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-21",
-      "dateAdded": "2026-09-21T18:39:57.549Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://teachforamerica.wd1.myworkdayjobs.com/TFA_Careers/job/RemoteHome-Office/Director--Prospect-Strategy--Management--and-Research_REQ-202609-3648",
-      "summary": "",
-      "tags": "Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Prospect Research Analyst",
       "employer": "Florida State University",
       "location": "Remote",
@@ -234,7 +249,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 9
+      "found": 10
     },
     {
       "source": "Apra Northwest",
@@ -244,7 +259,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 8
+      "found": 9
     },
     {
       "source": "Apra Georgia",
