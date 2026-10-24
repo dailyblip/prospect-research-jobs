@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T17:52:06.339Z",
+  "generatedAt": "2026-10-24T16:34:13.929Z",
   "count": 17,
   "rejectedCount": 0,
   "jobs": [
@@ -148,8 +148,8 @@
       "salaryRange": "Not listed",
       "postedDate": "2026-10-22",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179595589&Title=Prospect%20Development%20Project%20Manager%20%28%23%20376705%29",
       "summary": "",
       "tags": "Prospect Development, Leadership"
@@ -312,7 +312,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
