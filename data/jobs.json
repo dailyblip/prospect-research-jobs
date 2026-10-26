@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T16:34:13.929Z",
-  "count": 17,
+  "generatedAt": "2026-10-26T19:15:36.816Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Development Lead - Prospect Research and New Business Development (Remote)",
+      "employer": "Rocky Mountain Institute (RMI)",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$76,030-$93,707",
+      "postedDate": "2026-10-26",
+      "dateAdded": "2026-10-26T19:15:36.816Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://rockymountain.wd1.myworkdayjobs.com/rmi/job/remote---us/development-lead---prospect-research---new-business-development_r-101644",
+      "summary": "",
+      "tags": "Prospect Research, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Advancement Analytics & Insights",
+      "employer": "San Jose State University",
+      "location": "San Jose, CA",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-25",
+      "dateAdded": "2026-10-26T19:15:36.816Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://careers.pageuppeople.com/873/sj/en-us/job/560551/director-of-advancement-analytics-and-insights",
+      "summary": "",
+      "tags": "Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Manager, Prospect Development (Remote)",
@@ -141,18 +171,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Project Manager (# 376705)",
-      "employer": "University of Minnesota",
-      "location": "Twin Cities, MN",
+      "title": "Prospect Development Analyst",
+      "employer": "University of Utah",
+      "location": "Salt Lake City, UT",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-22",
+      "postedDate": "2026-10-25",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179595589&Title=Prospect%20Development%20Project%20Manager%20%28%23%20376705%29",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179598501&Title=Prospect%20Development%20Analyst",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Prospect Development"
     },
     {
       "status": "Active",
@@ -173,7 +203,7 @@
       "status": "Active",
       "title": "Prospect Development Analyst (*Remote)",
       "employer": "University of California, San Francisco",
-      "location": "Not listed",
+      "location": "Remote",
       "workMode": "Hybrid",
       "salaryRange": "$98,000 – $107,000",
       "postedDate": "2026-10-06",
@@ -182,7 +212,7 @@
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9691",
       "summary": "",
-      "tags": "Prospect Development, Remote"
+      "tags": "Prospect Development, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -274,7 +304,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 10
+      "found": 11
     },
     {
       "source": "Apra Georgia",
@@ -312,7 +342,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
