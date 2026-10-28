@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T19:15:36.816Z",
-  "count": 19,
+  "generatedAt": "2026-10-28T18:50:04.924Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Executive Director for Prospect Development and Advancement Intelligence",
+      "employer": "SUNY Buffalo",
+      "location": "Buffalo, NY",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-26",
+      "dateAdded": "2026-10-28T18:50:04.924Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.ubjobs.buffalo.edu/postings/65476",
+      "summary": "",
+      "tags": "Prospect Development, Leadership"
+    },
     {
       "status": "Active",
       "title": "Development Lead - Prospect Research and New Business Development (Remote)",
@@ -171,18 +186,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Analyst",
-      "employer": "University of Utah",
-      "location": "Salt Lake City, UT",
+      "title": "Associate Director, Prospect Development",
+      "employer": "University of California San Francisco (UCSF)",
+      "location": "San Francisco, CA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-25",
+      "postedDate": "2026-10-21",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179598501&Title=Prospect%20Development%20Analyst",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
       "summary": "",
-      "tags": "Prospect Development"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
@@ -203,7 +218,7 @@
       "status": "Active",
       "title": "Prospect Development Analyst (*Remote)",
       "employer": "University of California, San Francisco",
-      "location": "Remote",
+      "location": "Not listed",
       "workMode": "Hybrid",
       "salaryRange": "$98,000 – $107,000",
       "postedDate": "2026-10-06",
@@ -212,22 +227,22 @@
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9691",
       "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
+      "tags": "Prospect Development, Remote"
     },
     {
       "status": "Active",
-      "title": "Prospect Development and Research Associate (*Remote)",
-      "employer": "American Bible Society",
-      "location": "Remote",
-      "workMode": "Hybrid",
-      "salaryRange": "$56,000.00 To $67,000.00",
-      "postedDate": "2026-10-02",
+      "title": "Prospect Research Analyst (*Remote)",
+      "employer": "Ducks Unlimited",
+      "location": "*Remote (\"Applicants not located in the Memphis area are welcome to apply.\")",
+      "workMode": "Remote",
+      "salaryRange": "$28.00 to $30.00 hourly",
+      "postedDate": "2026-10-28",
       "dateAdded": "2026-10-02T18:23:38.258Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=acfa6cb1-1237-46db-95ed-bcff0e1a7fcd&jobId=544703&lang=en_US",
+      "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=597852",
       "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
+      "tags": "Prospect Research, Remote"
     },
     {
       "status": "Active",
@@ -304,7 +319,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 11
+      "found": 12
     },
     {
       "source": "Apra Georgia",
