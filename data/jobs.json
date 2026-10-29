@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T18:50:04.924Z",
+  "generatedAt": "2026-10-29T18:56:24.615Z",
   "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director, Prospect Management & Analytics",
+      "employer": "Northwestern University",
+      "location": "Evanston, IL",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-29",
+      "dateAdded": "2026-10-29T18:56:24.615Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=54474&PostingSeq=1",
+      "summary": "",
+      "tags": "Prospect Management, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Executive Director for Prospect Development and Advancement Intelligence",
@@ -123,21 +138,6 @@
       "applyUrl": "https://apracanada.ca/job-posting/prospect-research-coordinator-temporary-nait",
       "summary": "",
       "tags": "Prospect Research"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Management Analyst I (Durham, NC)",
-      "employer": "Duke University",
-      "location": "Durham, NC",
-      "workMode": "Unknown",
-      "salaryRange": "$61,026 to $88,434",
-      "postedDate": "2026-10-15",
-      "dateAdded": "2026-10-16T17:22:46.580Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://careers.duke.edu/job/Durham-Prospect-Management-Analyst-I-NC-27710/1440197100/",
-      "summary": "",
-      "tags": "Prospect Management"
     },
     {
       "status": "Active",
@@ -319,7 +319,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 12
+      "found": 9
     },
     {
       "source": "Apra Georgia",
@@ -339,9 +339,8 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": false,
-      "found": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "found": 0
     },
     {
       "source": "CASE Career Central",
