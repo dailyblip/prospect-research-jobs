@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T18:56:24.615Z",
-  "count": 20,
+  "generatedAt": "2026-10-30T18:35:17.164Z",
+  "count": 18,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -273,43 +273,13 @@
       "applyUrl": "https://compassion.wd5.myworkdayjobs.com/en-US/CompassionCareers/job/Prospect-Research-Analyst-II_R8520",
       "summary": "",
       "tags": "Prospect Research, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Researcher (Remote",
-      "employer": "Part Time)",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-29",
-      "dateAdded": "2026-09-29T18:37:18.818Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://cityyear.wd5.myworkdayjobs.com/en-US/CityYear/job/Prospect-Researcher_R8336",
-      "summary": "",
-      "tags": "Prospect Research, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Analyst",
-      "employer": "Florida State University",
-      "location": "Remote",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-09-29",
-      "dateAdded": "2026-09-09T17:08:57.674Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U",
-      "summary": "",
-      "tags": "Prospect Research, Leadership, Remote"
     }
   ],
   "sources": [
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 10
+      "found": 7
     },
     {
       "source": "Apra Northwest",
