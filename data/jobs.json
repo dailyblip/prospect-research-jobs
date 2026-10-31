@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-30T18:35:17.164Z",
-  "count": 18,
+  "generatedAt": "2026-10-31T17:41:48.714Z",
+  "count": 16,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -186,18 +186,18 @@
     },
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Development",
-      "employer": "University of California San Francisco (UCSF)",
-      "location": "San Francisco, CA",
+      "title": "Assistant Director, Prospect Research",
+      "employer": "Stony Brook University",
+      "location": "Stony Brook, NY",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-21",
+      "postedDate": "2026-10-31",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179604663&Title=Assistant%20Director%2C%20Prospect%20Research",
       "summary": "",
-      "tags": "Prospect Development, Leadership"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -243,36 +243,6 @@
       "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=597852",
       "summary": "",
       "tags": "Prospect Research, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "One-Year Prospect Development Analyst (Remote)",
-      "employer": "Earthjustice",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$75,300 - $83,700",
-      "postedDate": "2026-09-30",
-      "dateAdded": "2026-10-01T18:51:42.191Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://earthjustice.org/job/one-year-prospect-development-analyst",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Analyst II (Remote)",
-      "employer": "Compassion International",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$69,600.00 - $81,780.00",
-      "postedDate": "2026-09-30",
-      "dateAdded": "2026-09-30T18:26:16.862Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://compassion.wd5.myworkdayjobs.com/en-US/CompassionCareers/job/Prospect-Research-Analyst-II_R8520",
-      "summary": "",
-      "tags": "Prospect Research, Leadership, Remote"
     }
   ],
   "sources": [
