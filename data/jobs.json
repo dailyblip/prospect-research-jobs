@@ -1,9 +1,39 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T17:41:48.714Z",
-  "count": 16,
+  "generatedAt": "2026-11-02T22:17:46.273Z",
+  "count": 17,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Senior Director of Prospect Research & Donor Intelligence (Remote)",
+      "employer": "Young Life",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$98,200.00 - $136,000.00",
+      "postedDate": "2026-11-02",
+      "dateAdded": "2026-11-02T22:17:46.273Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://younglife.wd5.myworkdayjobs.com/en-US/YoungLife_Careers/job/Sr-Director-of-Prospect-Research---Donor-Intelligence_JR106363",
+      "summary": "",
+      "tags": "Prospect Research, Leadership, Remote"
+    },
+    {
+      "status": "Active",
+      "title": "Director of Advancement Services & Prospect Development",
+      "employer": "Muskingum University",
+      "location": "New Concord, OH",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-30",
+      "dateAdded": "2026-11-02T22:17:46.273Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.muskingum.edu/human-resources/director-advancement-services-and-prospect-development",
+      "summary": "",
+      "tags": "Prospect Development, Leadership"
+    },
     {
       "status": "Active",
       "title": "Associate Director, Prospect Management & Analytics",
@@ -156,21 +186,6 @@
     },
     {
       "status": "Active",
-      "title": "Community Philanthropy Manager - Prospect Research & Management",
-      "employer": "Scion Staffing",
-      "location": "Portland, OR, US",
-      "workMode": "Hybrid",
-      "salaryRange": "$82,590 - $93,208",
-      "postedDate": "2026-10-02",
-      "dateAdded": "2026-10-14T17:59:38.358Z",
-      "source": "Apra Northwest",
-      "sourceUrl": "https://www.apra-nw.org/Jobs?emulatemode=1",
-      "applyUrl": "https://scionstaffing.com/job/15680/?jobTitle=community-philanthropy-manager-prospect-research-management-portland-or",
-      "summary": "Scion Nonprofit Staffing has been engaged to conduct an immediate search for a Community Philanthropy Manager – Prospect Research & Management on behalf of Oregon Food Bank (OFB) . This is a full-time, exempt, hybrid opportunity based in Oregon or Southwest Wa…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Senior Associate Director, Prospect Management",
       "employer": "Washington University in St. Louis",
       "location": "St. Louis, MO",
@@ -240,7 +255,7 @@
       "dateAdded": "2026-10-02T18:23:38.258Z",
       "source": "Apra Carolinas",
       "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&jobId=597852",
+      "applyUrl": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7deee1c0-b159-4fdc-8bdb-3f1d87c47510&ccId=19000101_000001&lang=en_US&selectedMenuKey=CurrentOpenings&jobId=597852",
       "summary": "",
       "tags": "Prospect Research, Remote"
     }
@@ -249,7 +264,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 7
+      "found": 8
     },
     {
       "source": "Apra Northwest",
@@ -259,7 +274,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 9
+      "found": 11
     },
     {
       "source": "Apra Georgia",
@@ -269,7 +284,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 4
+      "found": 3
     },
     {
       "source": "CARA",
