@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T20:05:13.618Z",
-  "count": 19,
+  "generatedAt": "2026-11-04T20:24:36.920Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Assistant Director, Prospect Research",
+      "employer": "Stony Brook University",
+      "location": "Stony Brook, NY",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-10-31",
+      "dateAdded": "2026-11-04T20:24:36.920Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://stonybrooku.taleo.net/careersection/2/jobdetail.ftl?job=741488",
+      "summary": "",
+      "tags": "Prospect Research, Prospect Management, Leadership"
+    },
     {
       "status": "Active",
       "title": "Senior Manager, Prospect Management & Research",
@@ -231,18 +246,18 @@
     },
     {
       "status": "Active",
-      "title": "Assistant Director, Prospect Research",
-      "employer": "Stony Brook University",
-      "location": "Stony Brook, NY",
+      "title": "Associate Director, Prospect Development",
+      "employer": "University of California San Francisco (UCSF)",
+      "location": "San Francisco, CA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-31",
+      "postedDate": "2026-10-21",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179604663&Title=Assistant%20Director%2C%20Prospect%20Research",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": "Prospect Development, Leadership"
     },
     {
       "status": "Active",
