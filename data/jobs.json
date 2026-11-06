@@ -1,9 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T20:38:40.987Z",
-  "count": 20,
+  "generatedAt": "2026-11-06T19:56:25.766Z",
+  "count": 21,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Assistant Director, Prospect Research",
+      "employer": "Augusta University",
+      "location": "Augusta, GA",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-05",
+      "dateAdded": "2026-11-06T19:56:25.766Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://www.higheredjobs.com/admin/details.cfm?JobCode=179608385",
+      "summary": "",
+      "tags": "Prospect Research, Leadership"
+    },
+    {
+      "status": "Active",
+      "title": "AVP Prospect Research and Portfolio Management",
+      "employer": "HonorHealth",
+      "location": "Scottsdale, AZ",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-05",
+      "dateAdded": "2026-11-06T19:56:25.766Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://honorhealth.wd12.myworkdayjobs.com/HonorHealth_careers/job/HonorHealth---8125-N-Hayden-Rd-Scottsdale-AZ-85258/AVP-Prospect-Research-and-Portfolio-Management_JR0000006442-1?source=LinkedIn",
+      "summary": "",
+      "tags": "Prospect Research, Prospect Management"
+    },
+    {
+      "status": "Active",
+      "title": "Associate Director, Prospect Development / Development Research Manager",
+      "employer": "Michigan State University",
+      "location": "East Lansing, Michigan, US",
+      "workMode": "Remote",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-04",
+      "dateAdded": "2026-11-06T19:56:25.766Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://careers.msu.edu/jobs/associate-director-prospect-development-development-research-manager-east-lansing-michigan-united-states",
+      "summary": "Working/Functional Title Associate Director, Prospect Development Position Summary The mission of University Advancement is to secure support for Michigan State University in terms of money, talent, service, and advocacy, by delivering an integrated program of…",
+      "tags": "Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Associate Director, Philanthropy - Prospect Development (Remote)",
@@ -234,7 +279,7 @@
       "title": "Senior Associate Director, Prospect Management",
       "employer": "Washington University in St. Louis",
       "location": "St. Louis, MO",
-      "workMode": "Unknown",
+      "workMode": "Remote",
       "salaryRange": "Not listed",
       "postedDate": "2026-10-08",
       "dateAdded": "2026-10-09T18:47:53.976Z",
@@ -242,52 +287,22 @@
       "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
       "applyUrl": "https://wustl.wd1.myworkdayjobs.com/en-US/External/job/Washington-University-West-Campus-Clayton-Missouri/Senior-Associate-Director--Prospect-Management---University-Advancement_JR95908",
       "summary": "",
-      "tags": "Prospect Management, Leadership"
+      "tags": "Prospect Management, Advancement Analytics, Leadership, Remote"
     },
     {
       "status": "Active",
-      "title": "Prospect Development Analyst",
-      "employer": "Augusta University",
-      "location": "Augusta, GA",
+      "title": "Associate Director, Prospect Development",
+      "employer": "University of California San Francisco (UCSF)",
+      "location": "San Francisco, CA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-11-05",
+      "postedDate": "2026-10-21",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179608265&Title=Prospect%20Development%20Analyst",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
       "summary": "",
       "tags": "Prospect Development, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director, Prospect Development (*Remote)",
-      "employer": "University of California, San Francisco",
-      "location": "Not listed",
-      "workMode": "Hybrid",
-      "salaryRange": "$145,000 - $160,000",
-      "postedDate": "2026-10-06",
-      "dateAdded": "2026-10-06T18:53:50.628Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9379",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Development Analyst (*Remote)",
-      "employer": "University of California, San Francisco",
-      "location": "Not listed",
-      "workMode": "Hybrid",
-      "salaryRange": "$98,000 – $107,000",
-      "postedDate": "2026-10-06",
-      "dateAdded": "2026-10-06T18:53:50.628Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9691",
-      "summary": "",
-      "tags": "Prospect Development, Remote"
     },
     {
       "status": "Active",
@@ -319,7 +334,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 12
+      "found": 14
     },
     {
       "source": "Apra Georgia",
@@ -339,9 +354,8 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": false,
-      "found": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "found": 0
     },
     {
       "source": "CASE Career Central",
