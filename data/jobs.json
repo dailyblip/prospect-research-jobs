@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T18:20:18.711Z",
-  "count": 20,
+  "generatedAt": "2026-11-09T22:58:21.542Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -48,21 +48,6 @@
       "applyUrl": "https://careers.msu.edu/jobs/associate-director-prospect-development-development-research-manager-east-lansing-michigan-united-states",
       "summary": "Working/Functional Title Associate Director, Prospect Development Position Summary The mission of University Advancement is to secure support for Michigan State University in terms of money, talent, service, and advocacy, by delivering an integrated program of…",
       "tags": "Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director, Philanthropy - Prospect Development (Remote)",
-      "employer": "University of Texas MD Anderson Cancer Center",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$68,500 to $102,500",
-      "postedDate": "2026-11-05",
-      "dateAdded": "2026-11-05T20:38:40.987Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://jobs.mdanderson.org/search/jobdetails/associate-director-philanthropy---prospect-development/a981ad2f-9c6b-46d4-ba8f-3df48ae7708f?ejd=Default",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -276,16 +261,16 @@
     },
     {
       "status": "Active",
-      "title": "Associate Director, Prospect Development",
-      "employer": "University of California San Francisco (UCSF)",
-      "location": "San Francisco, CA",
+      "title": "Prospect Development Analyst",
+      "employer": "Seattle University",
+      "location": "Seattle, WA",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-21",
+      "postedDate": "2026-11-09",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179594666&Title=Associate%20Director%2C%20Prospect%20Development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179612070&Title=Prospect%20Development%20Analyst",
       "summary": "",
       "tags": "Prospect Development, Leadership"
     },
@@ -319,7 +304,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 14
+      "found": 13
     },
     {
       "source": "Apra Georgia",
