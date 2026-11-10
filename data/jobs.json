@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T22:58:21.542Z",
-  "count": 19,
+  "generatedAt": "2026-11-10T20:27:18.543Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Senior Associate Director, Philanthropy of Prospect Development (Remote)",
+      "employer": "University of Texas MD Anderson Cancer Center",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$77,500 to $116,500",
+      "postedDate": "2026-11-10",
+      "dateAdded": "2026-11-10T20:27:18.543Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://jobs.mdanderson.org/search/jobdetails/senior-associate-director-philanthropy/5158461f-77bd-4cca-85db-1b46576e0f10?ejd=Default",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Assistant Director, Prospect Research",
