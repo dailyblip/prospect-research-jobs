@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T20:10:29.046Z",
+  "generatedAt": "2026-11-12T20:47:31.207Z",
   "count": 20,
   "rejectedCount": 0,
   "jobs": [
@@ -276,18 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Sr. Prospect Research and Intelligence Analyst, Principal Gifts",
-      "employer": "Johns Hopkins University",
-      "location": "Baltimore, MD",
+      "title": "Prospect Research Analyst",
+      "employer": "T241132",
+      "location": "University of Alabama at Birmingham",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-11-10",
+      "postedDate": "2026-11-12",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179612899&Title=Sr%2E%20Prospect%20Research%20and%20Intelligence%20Analyst%2C%20Principal%20Gifts",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179615932&Title=Prospect%20Research%20Analyst%20%2D%20T241132",
       "summary": "",
-      "tags": "Prospect Research"
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -356,7 +356,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
