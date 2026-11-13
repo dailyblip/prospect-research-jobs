@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T20:47:31.207Z",
-  "count": 20,
+  "generatedAt": "2026-11-13T20:28:15.752Z",
+  "count": 21,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Prospect Research Specialist (Remote)",
+      "employer": "Gary Sinise Foundation",
+      "location": "Remote",
+      "workMode": "Remote",
+      "salaryRange": "$74,000 - $79,000",
+      "postedDate": "2026-11-13",
+      "dateAdded": "2026-11-13T20:28:15.752Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://www.linkedin.com/jobs/view/4489590350/",
+      "summary": "",
+      "tags": "Prospect Research, Remote"
+    },
     {
       "status": "Active",
       "title": "Officer, Prospect Research & Management",
@@ -309,7 +324,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 8
+      "found": 9
     },
     {
       "source": "Apra Northwest",
