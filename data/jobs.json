@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T20:28:15.752Z",
-  "count": 21,
+  "generatedAt": "2026-11-14T18:43:22.700Z",
+  "count": 18,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -21,18 +21,18 @@
     },
     {
       "status": "Active",
-      "title": "Officer, Prospect Research & Management",
-      "employer": "The International Rescue Committee",
+      "title": "Officer, Prospect Research & Management (Remote)",
+      "employer": "International Rescue Committee",
       "location": "Remote",
       "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-11-10",
+      "salaryRange": "$72,040 - $81,000",
+      "postedDate": "2026-11-11",
       "dateAdded": "2026-11-11T20:10:29.046Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
       "applyUrl": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/New-York-NY-HQ-USA/Officer--Prospect-Research---Management_JR00005945?source=LinkedIn",
       "summary": "",
-      "tags": "Prospect Research, Prospect Management, Leadership, Remote"
+      "tags": "Prospect Research, Remote"
     },
     {
       "status": "Active",
@@ -246,61 +246,16 @@
     },
     {
       "status": "Active",
-      "title": "DIRECTOR OF PROSPECT DEVELOPMENT",
-      "employer": "Eastern Michigan University Foundation",
-      "location": "Ypsilanti, Michigan, US",
+      "title": "Director of Advancement Operations and Prospect Research",
+      "employer": "Maryville College",
+      "location": "Maryville, TN",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-10-15",
-      "dateAdded": "2026-10-20T17:57:36.010Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://careers.emich.edu/jobs/director-of-prospect-development-ypsilanti-michigan-united-states",
-      "summary": "Title: DIRECTOR OF PROSPECT DEVELOPMENT Employee Classification: AP - Administrative Professional Pay Grade: AP 06 Division: Advancement Subdivision: VP Advancement Department: EMU Foundation and Advancement Campus Location: Main Campus General Summary The Dir…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Coordinator (Temporary)",
-      "employer": "NAIT",
-      "location": "Hybrid",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-10-14",
-      "dateAdded": "2026-10-17T16:22:57.036Z",
-      "source": "Apra Canada",
-      "sourceUrl": "https://apracanada.ca/job-postings",
-      "applyUrl": "https://apracanada.ca/job-posting/prospect-research-coordinator-temporary-nait",
-      "summary": "",
-      "tags": "Prospect Research"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director of Prospect Development",
-      "employer": "Washington National Cathedral",
-      "location": "Washington, DC, US",
-      "workMode": "Hybrid",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-10-14",
-      "dateAdded": "2026-10-14T17:59:38.358Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://recruiting.paylocity.com/recruiting/jobs/Details/4577253/Washington-National-Cathedral/Associate-Director-of-Prospect-Development",
-      "summary": "Description The Associate Director of Prospect Development reports to the Senior Director of Development Operations and provides strategic leadership for prospect management at Washington National Cathedral (WNC). The position oversees prospect research, portf…",
-      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
-      "title": "Prospect Research Analyst",
-      "employer": "T241132",
-      "location": "University of Alabama at Birmingham",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-11-12",
+      "postedDate": "2026-11-14",
       "dateAdded": "2026-10-08T19:15:56.343Z",
       "source": "HigherEdJobs — Prospect Development",
       "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179615932&Title=Prospect%20Research%20Analyst%20%2D%20T241132",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179617564&Title=Director%20of%20Advancement%20Operations%20and%20Prospect%20Research",
       "summary": "",
       "tags": "Prospect Research, Leadership"
     },
@@ -328,18 +283,21 @@
     },
     {
       "source": "Apra Northwest",
-      "ok": true,
-      "found": 5
+      "ok": false,
+      "found": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "source": "Apra Minnesota",
-      "ok": true,
-      "found": 14
+      "ok": false,
+      "found": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "source": "Apra Georgia",
-      "ok": true,
-      "found": 3
+      "ok": false,
+      "found": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "source": "Apra Canada",
