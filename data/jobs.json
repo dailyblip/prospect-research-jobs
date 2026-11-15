@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T18:43:22.700Z",
-  "count": 18,
+  "generatedAt": "2026-11-15T19:21:12.013Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director of Prospect Development",
+      "employer": "Washington National Cathedral",
+      "location": "Washington, DC, US",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-14",
+      "dateAdded": "2026-11-15T19:21:12.013Z",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
+      "applyUrl": "https://recruiting.paylocity.com/recruiting/jobs/Details/4577253/Washington-National-Cathedral/Associate-Director-of-Prospect-Development",
+      "summary": "Description The Associate Director of Prospect Development reports to the Senior Director of Development Operations and provides strategic leadership for prospect management at Washington National Cathedral (WNC). The position oversees prospect research, portf…",
+      "tags": "Prospect Research, Prospect Development, Prospect Management, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Prospect Research Specialist (Remote)",
@@ -21,18 +36,18 @@
     },
     {
       "status": "Active",
-      "title": "Officer, Prospect Research & Management (Remote)",
-      "employer": "International Rescue Committee",
+      "title": "Officer, Prospect Research & Management",
+      "employer": "The International Rescue Committee",
       "location": "Remote",
       "workMode": "Remote",
-      "salaryRange": "$72,040 - $81,000",
-      "postedDate": "2026-11-11",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-10",
       "dateAdded": "2026-11-11T20:10:29.046Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "source": "Apra Minnesota",
+      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
       "applyUrl": "https://theirc.wd1.myworkdayjobs.com/en-US/External_Careers/job/New-York-NY-HQ-USA/Officer--Prospect-Research---Management_JR00005945?source=LinkedIn",
       "summary": "",
-      "tags": "Prospect Research, Remote"
+      "tags": "Prospect Research, Prospect Management, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -283,21 +298,18 @@
     },
     {
       "source": "Apra Northwest",
-      "ok": false,
-      "found": 0,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "found": 5
     },
     {
       "source": "Apra Minnesota",
-      "ok": false,
-      "found": 0,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "found": 14
     },
     {
       "source": "Apra Georgia",
-      "ok": false,
-      "found": 0,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "found": 3
     },
     {
       "source": "Apra Canada",
