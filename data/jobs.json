@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T19:21:12.013Z",
-  "count": 19,
+  "generatedAt": "2026-11-17T21:44:44.557Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director of Prospect Research and Analytics (Chapel Hill, NC)",
+      "employer": "UNC at Chapel Hill",
+      "location": "Chapel Hill, NC",
+      "workMode": "Unknown",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-17",
+      "dateAdded": "2026-11-17T21:44:44.557Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://unc.peopleadmin.com/postings/328033",
+      "summary": "",
+      "tags": "Prospect Research, Advancement Analytics, Leadership"
+    },
     {
       "status": "Active",
       "title": "Associate Director of Prospect Development",
@@ -263,13 +278,13 @@
       "status": "Active",
       "title": "Director of Advancement Operations and Prospect Research",
       "employer": "Maryville College",
-      "location": "Maryville, TN",
+      "location": "Maryville, TN $78,575.19 - $88,397.09 per year",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
       "postedDate": "2026-11-14",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
       "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179617564&Title=Director%20of%20Advancement%20Operations%20and%20Prospect%20Research",
       "summary": "",
       "tags": "Prospect Research, Leadership"
@@ -294,7 +309,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 9
+      "found": 10
     },
     {
       "source": "Apra Northwest",
@@ -324,8 +339,9 @@
     },
     {
       "source": "Apra Career Center",
-      "ok": true,
-      "found": 0
+      "ok": false,
+      "found": 0,
+      "error": "HTTP 403"
     },
     {
       "source": "CASE Career Central",
@@ -341,7 +357,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
