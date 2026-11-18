@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T21:44:44.557Z",
-  "count": 20,
+  "generatedAt": "2026-11-18T21:24:08.577Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -93,21 +93,6 @@
       "applyUrl": "https://honorhealth.wd12.myworkdayjobs.com/HonorHealth_careers/job/HonorHealth---8125-N-Hayden-Rd-Scottsdale-AZ-85258/AVP-Prospect-Research-and-Portfolio-Management_JR0000006442-1?source=LinkedIn",
       "summary": "",
       "tags": "Prospect Research, Prospect Management"
-    },
-    {
-      "status": "Active",
-      "title": "Associate Director, Prospect Development / Development Research Manager",
-      "employer": "Michigan State University",
-      "location": "East Lansing, Michigan, US",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-11-04",
-      "dateAdded": "2026-11-06T19:56:25.766Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://careers.msu.edu/jobs/associate-director-prospect-development-development-research-manager-east-lansing-michigan-united-states",
-      "summary": "Working/Functional Title Associate Director, Prospect Development Position Summary The mission of University Advancement is to secure support for Michigan State University in terms of money, talent, service, and advocacy, by delivering an integrated program of…",
-      "tags": "Prospect Development, Prospect Management, Advancement Analytics, Leadership, Remote"
     },
     {
       "status": "Active",
@@ -357,7 +342,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
