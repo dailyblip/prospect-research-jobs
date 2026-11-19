@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T21:24:08.577Z",
-  "count": 19,
+  "generatedAt": "2026-11-19T21:28:28.094Z",
+  "count": 20,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Director of Prospect Development (Wilmington, NC)",
+      "employer": "University of North Carolina Wilmington",
+      "location": "Wilmington, NC",
+      "workMode": "Remote",
+      "salaryRange": "$74,000 to $92,000",
+      "postedDate": "2026-11-18",
+      "dateAdded": "2026-11-19T21:28:28.094Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://jobs.uncw.edu/postings/41596",
+      "summary": "",
+      "tags": "Prospect Development, Leadership, Remote"
+    },
     {
       "status": "Active",
       "title": "Director of Prospect Research and Analytics (Chapel Hill, NC)",
@@ -261,18 +276,18 @@
     },
     {
       "status": "Active",
-      "title": "Director of Advancement Operations and Prospect Research",
-      "employer": "Maryville College",
-      "location": "Maryville, TN $78,575.19 - $88,397.09 per year",
+      "title": "Senior Prospect Analyst",
+      "employer": "University of Pennsylvania",
+      "location": "Philadelphia, PA $77,330 - $87,000 per year",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-11-14",
+      "postedDate": "2026-11-18",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Research",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179617564&Title=Director%20of%20Advancement%20Operations%20and%20Prospect%20Research",
+      "source": "HigherEdJobs — Prospect Development",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179621043&Title=Senior%20Prospect%20Analyst",
       "summary": "",
-      "tags": "Prospect Research, Leadership"
+      "tags": ""
     },
     {
       "status": "Active",
@@ -294,12 +309,12 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 10
+      "found": 11
     },
     {
       "source": "Apra Northwest",
       "ok": true,
-      "found": 5
+      "found": 2
     },
     {
       "source": "Apra Minnesota",
