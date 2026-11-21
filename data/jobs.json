@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T21:28:28.094Z",
-  "count": 20,
+  "generatedAt": "2026-11-21T20:03:56.754Z",
+  "count": 19,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -261,33 +261,18 @@
     },
     {
       "status": "Active",
-      "title": "Prospect Development Project Manager",
-      "employer": "University of Minnesota Foundation",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-10-21",
-      "dateAdded": "2026-10-22T17:57:41.314Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://hr.myu.umn.edu/jobs/ext/376705",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
-      "title": "Senior Prospect Analyst",
-      "employer": "University of Pennsylvania",
-      "location": "Philadelphia, PA $77,330 - $87,000 per year",
+      "title": "Assistant Director, Prospect Research",
+      "employer": "Harvard University",
+      "location": "Cambridge, MA $78,000 - $132,600 per year",
       "workMode": "Unknown",
       "salaryRange": "Not listed",
-      "postedDate": "2026-11-18",
+      "postedDate": "2026-11-20",
       "dateAdded": "2026-10-08T19:15:56.343Z",
-      "source": "HigherEdJobs — Prospect Development",
-      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20development",
-      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179621043&Title=Senior%20Prospect%20Analyst",
+      "source": "HigherEdJobs — Prospect Research",
+      "sourceUrl": "https://www.higheredjobs.com/search/advanced_action.cfm?Keyword=prospect%20research",
+      "applyUrl": "https://www.higheredjobs.com/search/details.cfm?JobCode=179622447&Title=Assistant%20Director%2C%20Prospect%20Research",
       "summary": "",
-      "tags": ""
+      "tags": "Prospect Research, Leadership"
     },
     {
       "status": "Active",
@@ -309,7 +294,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 11
+      "found": 10
     },
     {
       "source": "Apra Northwest",
@@ -329,7 +314,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 3
+      "found": 4
     },
     {
       "source": "CARA",
@@ -357,7 +342,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 1
+      "found": 0
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
