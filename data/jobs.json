@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T20:03:56.754Z",
-  "count": 19,
+  "generatedAt": "2026-11-24T00:48:18.455Z",
+  "count": 18,
   "rejectedCount": 0,
   "jobs": [
     {
@@ -246,21 +246,6 @@
     },
     {
       "status": "Active",
-      "title": "Manager, Prospect Development (Remote)",
-      "employer": "American Cancer Society",
-      "location": "Remote",
-      "workMode": "Remote",
-      "salaryRange": "$67,000 to $70,000",
-      "postedDate": "2026-10-23",
-      "dateAdded": "2026-10-23T17:52:06.339Z",
-      "source": "Apra Carolinas",
-      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
-      "applyUrl": "https://acs.wd5.myworkdayjobs.com/ACSCareers/job/Atlanta-Georgia/Manager--Prospect-Development_JR3840",
-      "summary": "",
-      "tags": "Prospect Development, Leadership, Remote"
-    },
-    {
-      "status": "Active",
       "title": "Assistant Director, Prospect Research",
       "employer": "Harvard University",
       "location": "Cambridge, MA $78,000 - $132,600 per year",
@@ -294,7 +279,7 @@
     {
       "source": "Apra Carolinas",
       "ok": true,
-      "found": 10
+      "found": 9
     },
     {
       "source": "Apra Northwest",
@@ -304,7 +289,7 @@
     {
       "source": "Apra Minnesota",
       "ok": true,
-      "found": 14
+      "found": 11
     },
     {
       "source": "Apra Georgia",
