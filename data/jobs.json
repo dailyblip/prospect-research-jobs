@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T00:48:18.455Z",
+  "generatedAt": "2026-11-25T22:28:33.210Z",
   "count": 18,
   "rejectedCount": 0,
   "jobs": [
+    {
+      "status": "Active",
+      "title": "Associate Director, Prospect Intelligence (Hybrid/Raleigh, NC)",
+      "employer": "NC State University",
+      "location": "Hybrid/Raleigh, NC",
+      "workMode": "Hybrid",
+      "salaryRange": "Not listed",
+      "postedDate": "2026-11-25",
+      "dateAdded": "2026-11-25T22:28:33.210Z",
+      "source": "Apra Carolinas",
+      "sourceUrl": "https://apracarolinas.wildapricot.org/Jobs?emulatemode=1",
+      "applyUrl": "https://jobs.ncsu.edu/postings/237713",
+      "summary": "",
+      "tags": "Leadership"
+    },
     {
       "status": "Active",
       "title": "Director of Prospect Development (Wilmington, NC)",
@@ -231,21 +246,6 @@
     },
     {
       "status": "Active",
-      "title": "Director of Advancement Analytics & Insights",
-      "employer": "San Jose State University",
-      "location": "San Jose, CA",
-      "workMode": "Unknown",
-      "salaryRange": "Not listed",
-      "postedDate": "2026-10-25",
-      "dateAdded": "2026-10-26T19:15:36.816Z",
-      "source": "Apra Minnesota",
-      "sourceUrl": "https://apra-mn.org/jobs?emulatemode=1",
-      "applyUrl": "https://careers.pageuppeople.com/873/sj/en-us/job/560551/director-of-advancement-analytics-and-insights",
-      "summary": "",
-      "tags": "Advancement Analytics, Leadership"
-    },
-    {
-      "status": "Active",
       "title": "Assistant Director, Prospect Research",
       "employer": "Harvard University",
       "location": "Cambridge, MA $78,000 - $132,600 per year",
@@ -299,7 +299,7 @@
     {
       "source": "Apra Canada",
       "ok": true,
-      "found": 4
+      "found": 5
     },
     {
       "source": "CARA",
@@ -327,7 +327,7 @@
     {
       "source": "HigherEdJobs — Prospect Development",
       "ok": true,
-      "found": 0
+      "found": 1
     },
     {
       "source": "Philanthropy Jobs — Prospect Research",
